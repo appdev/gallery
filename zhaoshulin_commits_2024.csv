@@ -1,0 +1,1049 @@
+81a14761df,2024/12/24,10:40,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+0fa969ce1a,2024/12/24,10:40,赵舒林,feat(media): 修改媒体唯一标识生成性和稳定性
+0a4a6ec15a,2024/12/19,19:12,赵舒林,refactor(ui): 重构照片查看页面逻辑
+acfaf08f92,2024/12/19,19:00,赵舒林,feat(photo): 优化图片加载逻辑并添加视频封面层
+584f0f35b7,2024/12/18,11:58,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+4efb9a57f6,2024/12/18,11:57,赵舒林,refactor(media): 优化媒体预览功能和缓存处理
+756a41ec63,2024/12/17,17:42,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+392c547f38,2024/12/17,17:42,赵舒林,feat(photo): 添加源框属性更新功能
+ae8fbd2905,2024/12/17,15:48,赵舒林,refactor(ui): 重构照片浏览功能
+fc0e37645a,2024/12/16,18:31,赵舒林,fix(PhotoView): 修复 GIF 图片播放问题
+7038711546,2024/12/16,18:20,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+30b21d8bda,2024/12/16,18:20,赵舒林,fix(base): 修复设置深色模式时的崩溃问题
+fb317326ec,2024/12/16,16:11,赵舒林,fix(features): 修复点击图片时显示大图的问题
+3d5033ad54,2024/12/16,16:00,赵舒林,refactor(base): 优化文件 ID 生成逻辑
+6d6e10e79a,2024/12/16,15:31,赵舒林,refactor(base): 优化文件 ID 生成逻辑
+df9583e79a,2024/12/16,10:42,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+b50e58a001,2024/12/16,10:41,赵舒林,feat(ui): 优化照片浏览页面的沉浸式体验
+a8bee018b5,2024/12/13,19:00,赵舒林,refactor(ui): 优化照片浏览页面的代码
+f7a4c73d29,2024/12/13,18:57,赵舒林,refactor(ui): 重构照片浏览功能
+c10d5ec2fb,2024/12/13,18:16,赵舒林,refactor(filemanager): 优化文件管理器界面切换和动画效果- 恢复 FileListFragment 中的 onCreateAnimation 方法，实现左右切换动画
+a5b72c622d,2024/12/13,17:59,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+f5d99441ea,2024/12/13,17:59,赵舒林,feat(base): 优化 CommonDialog并添加主题切换支持
+873b12071a,2024/12/12,14:37,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+dab1398e4f,2024/12/12,14:37,赵舒林,refactor(ui): 重构媒体预览页面的工具栏组件
+59f77ab770,2024/12/11,16:20,赵舒林,feat(photo): 实现媒体预览功能
+492c68092a,2024/12/09,14:38,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+e813a4cb72,2024/12/09,14:38,赵舒林,actor(mediaref): 重构媒体浏览器底部工具栏逻辑
+93b075a372,2024/12/07,17:38,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+177cf6f691,2024/12/07,17:38,赵舒林,refactor(media): 优化加载布局底部间距适配
+5486195c5a,2024/12/07,14:35,赵舒林,Merge remote-tracking branch 'origin/feat_bottom_show_size' into feat_bottom_show_size
+9996a82d72,2024/12/07,14:35,赵舒林,feat(ui): 底部弹窗适配平板和手机
+ce7815ac7e,2024/12/07,12:36,赵舒林,feat(dialog): 新增底端弹窗选择器的列表展示方式- 在 BottomSheetSelectorBean 中添加 type 字段，用于区分展示方式 - 在 DialogBean 中新增 DIALOG_TYPE_BOTTOM_SHEET_SELECTIONS_GRID 类型 - 修改 BottomSheetSelectorDialog 中的布局管理器，支持列表和网格两种展示方式 - 更新 DialogCreateFactory 中的逻辑，为 BottomSheetSelectorBean 设置 type属性
+0906666213,2024/12/07,11:30,赵舒林,refactor(base): 优化 BottomSheetSelectorDialog 的布局适配
+e8e2993072,2024/12/05,18:12,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+ca8d2e2046,2024/12/05,18:12,赵舒林,build:调整 Gradle 最大堆内存设置
+583587bf1d,2024/12/05,18:00,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+4cb6b0d580,2024/12/05,18:00,赵舒林,refactor(base/ui): 调整事件处理和对话框逻辑- 移除 EventHandler 中未使用的 LiveEventBus 导入 - 在 EventHandler 中添加命令日志输出 - 修正 DialogPresentHandler 中的对话框级别判断逻辑
+2cba66d419,2024/12/05,15:42,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+e3a67c309d,2024/12/05,15:42,赵舒林,feat(photo): 实现媒体文件浏览功能
+4f759965a5,2024/12/05,14:10,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+a6d0f43414,2024/12/05,14:10,赵舒林,feat(media): 添加相册查询和播放器功能
+fc2a288ba6,2024/12/05,10:07,赵舒林,refactor(media): 重构媒体监听和权限处理
+6ec5ff6fa6,2024/12/04,10:35,赵舒林,refactor(base, features): 优化 ShowImageActivity 中的配置更改处理逻辑
+969ec1a09c,2024/12/03,18:38,赵舒林,feat(feature): 添加媒体变更监听功能
+5495eaa334,2024/12/03,17:55,赵舒林,feat(ui): 添加照片选择功能- 新增照片选择页面和相关组件 - 实现照片预览和选择逻辑 - 添加媒体信息处理工具函数 - 更新资源文件，增加新功能所需字符串和颜色
+31f1728b29,2024/12/03,17:45,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+3c40250356,2024/12/03,17:45,赵舒林,fix(base): 修复 HEIF 图片转换为 JPG 时 Exif 信息丢失问题
+b57675dcd0,2024/12/02,17:34,赵舒林,fix(features): 修复屏幕旋转时的显示问题
+fc43b5429b,2024/12/02,16:56,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+a7ae201120,2024/12/02,16:55,赵舒林,fix(features): - 在 HttpUtil 中添加 HEIC 图片类型的支持 - 在 WebRequestProxy 中使用 URLConnection 来获取文件类型，提高准确性 - 调整 player_top_action.xml 中文本图标大小，优化布局显示
+c23f0c52f4,2024/12/02,11:24,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+d358b32a9c,2024/12/02,11:24,赵舒林,fix(media): 修复横屏切换时的加载动画显示问题
+e7c8b82031,2024/11/29,16:45,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+e9443d8d88,2024/11/29,16:44,赵舒林,refactor(features): 优化视频播放控制组件的时间显示逻辑
+2acb42281a,2024/11/29,11:54,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+c1e993cc74,2024/11/29,11:54,赵舒林,fix(media): 修复横竖屏切换时加载图位置不当的问题 - 修改 layout_video_component.xml 中的加载图默认位置 - 优化加载图的显示效果，确保在不同屏幕方向下都能正确显示
+2532664404,2024/11/28,17:54,赵舒林,fix(ui): 修复屏幕旋转时的卡顿问题
+e28cf16515,2024/11/28,11:33,赵舒林,style(features): 调整顶部操作图标大小设置为 20dp
+a81b56fede,2024/11/28,11:33,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+35a1d228eb,2024/11/28,11:33,赵舒林,style(features): 调整顶部操作图标大小设置为 20dp
+23658a53c1,2024/11/26,18:41,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+d1c7dff7e3,2024/11/26,18:41,赵舒林,perf(entry): 优化模糊效果更新逻辑
+1971c9be27,2024/11/26,18:27,赵舒林,fix(ui): 修复浮窗销毁逻辑 在 cancel 函数中添加 sendMessageEvent(DESTROY) ，确保浮窗正确销毁
+31e5cc3f6d,2024/11/26,17:55,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+6d44c8d891,2024/11/26,17:55,赵舒林,feat(ui): 完善支付页面的用户协议功能
+299673c3ef,2024/11/26,17:32,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+a4ca832e8a,2024/11/26,17:32,赵舒林,修改运行栏关闭动画关闭方法
+7751c2f651,2024/11/26,15:13,赵舒林,refactor(pay): 优化支付相关代码
+0476f90fb6,2024/11/26,15:12,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+a6fcf2c95f,2024/11/26,15:12,赵舒林,refactor(pay): 重构支付模块
+db7367afb7,2024/11/26,11:17,赵舒林,feat(pay): 集成支付宝支付功能
+c716615877,2024/11/25,18:27,赵舒林,微信支付功能完善及优化 以适应新的支付逻辑 - 引入 InstallCheckUtil 工具类用于检查应用安装状态
+eb3956dc5d,2024/11/25,14:51,赵舒林,feat: 添加微信查询scheme
+0e7780e356,2024/11/25,14:28,赵舒林,feat(payment): 实现支付功能- 新增支付宝、微信支付和二维码支付的支持 - 实现支付请求处理、支付状态更新和支付结果处理 - 优化支付对话框和支付页面的UI - 添加支付相关的常量和事件定义
+1b671d2110,2024/11/25,11:35,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+ce71603ef1,2024/11/25,11:35,赵舒林,fix(ui): 修复 EllipsizedTextView 测量逻辑
+5b42c760fa,2024/11/22,12:48,赵舒林,refactor(ui): 重构支付页面布局并优化桌面页面结构
+a7f70c6ffd,2024/11/22,11:43,赵舒林,perf(ui): 优化屏幕旋转处理逻辑
+2fdec97183,2024/11/22,10:33,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+d7c0f7b94b,2024/11/22,10:32,赵舒林,feat(payment): 微信支付功能集成
+f57fa82614,2024/11/21,11:11,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+8746a34191,2024/11/21,11:11,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+a5ef9747c3,2024/11/21,11:03,赵舒林,feat(singing): 添加 EdgeR证书和密钥文件
+eeba17f3b9,2024/11/20,18:53,赵舒林,feat(ui): 添加支付功能
+c075bb7cf2,2024/11/20,18:28,赵舒林,refactor(ui): 优化 NetWorkFloatView 的拖动和吸附逻辑
+48dd92bd41,2024/11/20,17:48,赵舒林,fix(photoview): 修复 GIF 图片播放问题
+d2e6b1e604,2024/11/20,17:34,赵舒林,fix(photoview): 修复 GIF 图片播放问题
+e42c5634dc,2024/11/20,17:33,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+388a832205,2024/11/20,17:32,赵舒林,更新 aar
+b50326d56d,2024/11/20,11:13,赵舒林,fix(ui): 修复网络浮窗拖动和自动隐藏问题
+2d473e3f7d,2024/11/19,17:49,赵舒林,优化手势控制及页面显示逻辑
+e9f5b63a3f,2024/11/19,15:26,赵舒林,fix(dialog): 修复支付对话框底部导航栏重叠问题
+bc811afc88,2024/11/18,17:05,赵舒林,更新 aar
+b83d56d08f,2024/11/18,17:00,赵舒林,refactor(dialog): 优化弹窗显示和加载视图
+28897e5c1b,2024/11/18,15:58,赵舒林,优化浮窗动画及广告展示逻辑
+16634b51f1,2024/11/18,10:38,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+f8f07490de,2024/11/18,10:38,赵舒林,feat(running): 优化任务同步和界面更新逻辑
+913c15dad9,2024/11/18,10:18,赵舒林,feat(ui): 添加 ImageKnife 组件并优化图标加载
+052526288f,2024/11/18,10:15,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+5392b1505d,2024/11/18,10:13,赵舒林,refactor(ui): 优化运行页面截图显示逻辑
+27b194c6c5,2024/11/15,14:40,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+e3202e0189,2024/11/15,14:40,赵舒林,优化键盘监听器高度转换
+b773aeefe1,2024/11/15,11:20,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+50b18f3ec5,2024/11/15,11:20,赵舒林,feat(task): 添加任务池功能并实现任务超时和取消机制- 新增 EdgerTaskPool 类，提供任务执行、取消和获取任务信息等功能 - 实现了任务超时和取消机制，支持设置任务延迟和超时时间- 添加了任务优先级和任务状态的枚举类型 -编写了任务池的单元测试用例，验证了各项功能的正确性
+276d0eba0c,2024/11/14,18:10,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+3caecd9c16,2024/11/14,18:10,赵舒林,refactor(ui): 优化网络浮窗点击事件处理逻辑
+ce33d2511a,2024/11/14,16:43,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+e6442ca235,2024/11/14,16:43,赵舒林,Comate 生成提交信息超时
+9d89ffe003,2024/11/14,13:58,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+0328a1c618,2024/11/14,13:57,赵舒林,refactor(running): 重构后台任务处理逻辑
+9c5d5915c6,2024/11/13,13:51,赵舒林,更新 aar
+43063e8ee7,2024/11/13,13:41,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+daae306616,2024/11/13,12:08,赵舒林,fix(features): 修复封面图浏览页面逻辑
+6d9a845970,2024/11/13,11:02,赵舒林,优化运行页UI及交互逻辑
+c487c73b49,2024/11/13,10:48,赵舒林,重构运行页UI及逻辑
+7bdc6b6f1e,2024/11/12,16:41,赵舒林,refactor(ui): 重构运行栏页面布局和样式
+60ec07dcb1,2024/11/12,11:09,赵舒林,增加图片加载功能
+c545658395,2024/11/11,11:39,赵舒林,refactor(ui): 重构运行中的应用列表页面
+c6e1f60da9,2024/11/11,11:38,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+9bb90fcd62,2024/11/08,19:06,赵舒林,refactor(ui): 重构运行页面布局和逻辑
+84d0247ca7,2024/11/07,16:33,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+38afeed6f5,2024/11/07,16:32,赵舒林,优化运行页UI及交互逻辑
+ec5ee3d683,2024/11/06,17:23,赵舒林,fix(keyboard): 修复软键盘弹出和隐藏后未返回结果的问题
+99a52f7def,2024/11/06,11:42,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+14a696ee30,2024/11/06,11:41,赵舒林,feat(eap): 优化后台任务处理逻辑
+5902cbb90f,2024/11/05,18:15,赵舒林,增加权限申请
+bcb4641d2d,2024/11/05,18:08,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+59e13e7153,2024/11/05,18:07,赵舒林,feat(permission): 添加权限查询和请求功能
+01e5014c55,2024/11/05,15:34,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+09f1f79511,2024/11/05,15:34,赵舒林,refactor(ohos): 修改findEdgerEventPlugin
+d735377255,2024/11/05,14:02,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+b7803fb8fa,2024/11/05,14:01,赵舒林,refactor(features): 增加文件选择类型
+44571650c8,2024/11/05,10:18,赵舒林,优化代码并修正键盘事件功能
+25dc8a4074,2024/11/04,18:05,赵舒林,feat(ohos): 新增移除键盘事件功能
+0fd707c7af,2024/11/04,17:32,赵舒林,重构findEdgerEventPlugin代码
+2800102f05,2024/11/04,17:28,赵舒林,refactor(permission): 适配 Android 14 权限变化- 引入 UPSIDE_DOWN_CAKE 版本常量 - 使用 SdkVersionUtils 判断 Android 版本 - 根据版本选择性请求 READ_MEDIA_VISUAL_USER_SELECTED 权限
+03034e4479,2024/11/04,17:27,赵舒林,refactor(findEdgerEventPlugin): 重构代码以提高可维护性和可读性
+0141152711,2024/11/04,16:58,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+d0cc9e535b,2024/11/04,16:57,赵舒林,feat(ohos): 新增键盘显示隐藏功能并优化设备信息获取
+b20f7ec0a7,2024/11/04,14:12,赵舒林,fix(media): 修复视频播放控制组件的时长显示和拖动进度条问题
+b6d088e787,2024/11/01,18:26,赵舒林,feat(entry): 优化首页手势逻辑和布局
+ea0e051b52,2024/11/01,17:17,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+fd4d35c052,2024/11/01,17:17,赵舒林,refactor(ui): 重构运行页面布局和逻辑
+2696d2d81d,2024/11/01,15:53,赵舒林,refactor(entry): 重构主页面组件
+513600983b,2024/11/01,15:49,赵舒林,refactor(ui): 重构运行页面组件
+c545936e68,2024/11/01,15:42,赵舒林,refactor(ui): 重构运行页面组件并优化 EAP 相关功能
+ae3250bc8e,2024/11/01,10:40,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+86a0fa4918,2024/11/01,10:40,赵舒林,fix(features): 优化图片加载错误提示逻辑
+5b796c010a,2024/10/31,18:53,赵舒林,refactor(ui): 优化浮窗动画和边缘吸附逻辑
+1528d73a83,2024/10/31,18:52,赵舒林,build(ui): 更新 oh-package.json5 文件
+3e6ba0ff3c,2024/10/31,18:43,赵舒林,feat(ui): 新增后台管理列表功能
+8188e7ae2b,2024/10/31,17:38,赵舒林,feat(ui): 新增 SkinShapeCardView 并优化网络浮窗动画
+de8df875b9,2024/10/31,17:36,赵舒林,feat(ui): 新增 SkinShapeCardView 并优化网络浮窗动画
+d03c143770,2024/10/31,15:25,赵舒林,refactor(ui): 优化主题切换逻辑
+174cb5f1a5,2024/10/31,15:22,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+fd5edf286e,2024/10/31,15:22,赵舒林,fix(ui): 修复主题切换逻辑
+287df96258,2024/10/30,19:09,赵舒林,Merge remote-tracking branch 'origin/feat_no_network_tips' into feat_no_network_tips
+acf0b4201b,2024/10/30,19:08,赵舒林,refactor(ui): 优化网络浮窗显示逻辑
+cbddc23a09,2024/10/30,18:07,赵舒林,refactor(ui): 优化网络浮窗布局和动画
+9e7eda3f99,2024/10/30,16:34,赵舒林,feat(ui): 重构网络浮窗功能
+c6cdae5124,2024/10/30,15:50,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+97a2a775c6,2024/10/30,15:50,赵舒林,feat(ui): 添加获取系统主题功能
+5ff1052359,2024/10/30,14:35,赵舒林,refactor(ui): 重构网络浮窗显示逻辑
+c17dd885b8,2024/10/30,14:13,赵舒林,refactor(ui): 重构网络浮窗功能
+aff5ee4a0f,2024/10/30,10:59,赵舒林,Merge remote-tracking branch 'origin/feat_no_network_tips' into feat_no_network_tips
+a4a5407ead,2024/10/30,10:59,赵舒林,refactor(ui): 重构网络浮窗动画和布局
+58ad455357,2024/10/29,14:24,赵舒林,Merge remote-tracking branch 'origin/feat_no_network_tips' into feat_no_network_tips
+55b8d9e33d,2024/10/29,14:22,赵舒林,refactor(ui): 重构网络浮窗视图
+c3739a2bea,2024/10/28,16:52,赵舒林,feat:add net work tips
+73eefd77b9,2024/10/25,16:19,赵舒林,删除循环依赖
+436cd37390,2024/10/24,14:37,赵舒林,添加媒体播放前缀服务权限在AndroidManifest.xml中添加了FOREGROUND_SERVICE_MEDIA_PLAYBACK权限，以支持媒体播放功能。
+5725541342,2024/10/24,10:44,赵舒林,feat:URL
+a2356d0eff,2024/10/23,18:19,赵舒林,更新 aar
+1893876a3d,2024/10/23,18:06,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+684a53ff3d,2024/10/23,18:06,赵舒林,优化图片查看器阅读模式配置
+ccadb21ca4,2024/10/23,16:24,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+79398f27a4,2024/10/23,16:23,赵舒林,Merge remote-tracking branch 'origin/develop_harmony_os' into develop_harmony_os
+4fa96f108c,2024/10/23,16:22,赵舒林,添加 滑动功能
+6b38b8dd48,2024/10/23,12:03,赵舒林,添加 滑动功能
+b1aee9d604,2024/10/23,11:32,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+acf3a1aa2a,2024/10/23,11:31,赵舒林,调整视频加载视图的底部边距
+d639e17123,2024/10/23,11:10,赵舒林,添加 滑动功能
+f4131b2e2e,2024/10/22,17:05,赵舒林,优化图片加载和旋转处理
+89e561ecfa,2024/10/22,17:05,赵舒林,优化图片加载和旋转处理
+178c410e70,2024/10/22,17:02,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+05359b5bc3,2024/10/22,17:02,赵舒林,优化图片加载和旋转处理
+9a9025e069,2024/10/21,14:13,赵舒林,优化外部存储权限判断逻辑
+90f74d572d,2024/10/21,11:56,赵舒林,1.优化状态栏和导航栏的显示适配    - 在 LoadingFragment 中根据设备类型调整加载视图的底部边距   - 在 ShowImageActivity 中添加刘海屏支持并优化导航栏透明度设置 2. 提升图片查看体验    - 在 PhotoView 中添加异常捕获处理，提高应用稳定性    - 调整 OpenImageConfig 中阅读模式的默认缩放比例 3.权限配置更新    - 在 PermissionConfig 中移除不必要的音频读取权限常量
+39410cf666,2024/10/18,17:24,赵舒林,修复媒体权限问题
+d9b26e44c9,2024/10/18,17:24,赵舒林,修复媒体权限问题
+8b84a81778,2024/10/18,16:55,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+35d1572678,2024/10/18,16:54,赵舒林,```添加文件信息中的URL字段并优化访问权限
+8dc4e84ab8,2024/10/16,17:29,赵舒林,优化键盘高度识别逻辑
+cc76242ac8,2024/10/16,17:12,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+c3e5980ad8,2024/10/16,17:12,赵舒林,优化状态键盘返回值
+bd7f35a449,2024/10/15,13:45,赵舒林,升级Glide版本并优化OkHttp集成
+d9d0432050,2024/10/14,18:42,赵舒林,更新中英文文件详情字符串
+884f13597e,2024/10/14,18:06,赵舒林,优化音频播放时长计算逻辑和任务管理日志记录
+bf2cf2b3b7,2024/10/14,17:31,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+5506cb7d88,2024/10/14,17:30,赵舒林,修复SkinEllipsizedTextView中的文本截断问题和优化键盘高度事件日志
+fa2b9dc4de,2024/10/14,11:01,赵舒林,新增静默关闭侧滑菜单的方法并优化键盘可见性逻辑
+06b3274ddd,2024/10/14,10:36,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+bfc11606c5,2024/10/14,10:36,赵舒林,优化键盘高度计算和状态判断- 优化了键盘高度的计算逻辑，只有在键盘可见时才转换像素到dp - 修改了键盘状态的判断方式，使用新添加的isKeyboardVisible函数进行判断 - 这些更改提高了代码的可读性和可维护性
+68154da019,2024/10/12,16:56,赵舒林,优化视频播放控制时间显示
+ffdf437d85,2024/10/12,14:22,赵舒林,调整封面层碎片的布局和间距
+2e0dcc65d5,2024/10/12,14:05,赵舒林,相册修改
+84000a2532,2024/10/12,14:04,赵舒林,相册修改
+413b66ea70,2024/10/12,12:51,赵舒林,移除图片选择器相关代码并优化相机功能
+b35c3ceabc,2024/10/12,10:31,赵舒林,优化SkinEllipsizedTextView逻辑
+ae6e5c0f42,2024/10/12,10:30,赵舒林,优化自定义SkinEllipsizedTextView的皮肤应用与测量逻辑
+04cc081a8e,2024/10/12,10:28,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+69c12d86ef,2024/10/11,17:54,赵舒林,Merge branch 'refs/heads/dev' into feat_bugfix
+938c268541,2024/10/11,17:47,赵舒林,修复Android13上无法读取媒体文件的问题
+36f7a89ea0,2024/10/11,16:24,赵舒林,升级编译和目标SDK版本，新增媒体权限支持
+47538e5cba,2024/10/11,13:51,赵舒林,优化EllipsizedTextView文本处理
+3ae2c58310,2024/10/11,11:42,赵舒林,为EllipsizedTextView添加自定义省略号颜色支持
+f252ca2c52,2024/10/11,10:24,赵舒林,文件管理模块：优化文件属性
+de19b11217,2024/10/11,10:22,赵舒林,Merge branch 'refs/heads/dev' into feat_fs_single_choose
+222c369817,2024/10/10,17:56,赵舒林,更新base模块selector库为aar
+98a85c1e77,2024/10/10,17:34,赵舒林,更新base模块selector-release
+1b629111fe,2024/10/10,17:12,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+05839948a6,2024/10/10,17:11,赵舒林,文件管理模块：更新文件类型描述
+5f9c525914,2024/10/08,16:03,赵舒林,调整文件日期格式并优化文件筛选逻辑
+9c13ab9639,2024/10/08,11:05,赵舒林,优化 URL 解码逻辑
+9acfc48a19,2024/10/08,11:01,赵舒林,添加 URL编码函数并优化解码实现
+37ba80620e,2024/09/27,17:27,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+6806f8e637,2024/09/27,17:27,赵舒林,文件管理模块：优化文件日期处理逻辑
+b9d48faeb9,2024/09/27,14:28,赵舒林,feat:优化文件选择功能筛选速度
+d0ef8d0ae0,2024/09/27,14:22,赵舒林,feat:优化文件选择功能筛选速度
+4523a64845,2024/09/27,10:49,赵舒林,string-utils：实现一个新的urlDecode方法以替代URLDecoder.decode
+fb0f63aaef,2024/09/26,18:53,赵舒林,refactor(file-manager): 优化文件选择逻辑与UI更新
+7b977a94c9,2024/09/26,17:04,赵舒林,修复文件管理器中的选择配置逻辑
+5ac109fdb8,2024/09/26,16:35,赵舒林,确保在关闭操作中正确执行动画和状态更新。修复了在关闭滑动操作时动画和状态未正确执行的问题。此更改使关闭操作中的状态更新与动画流畅且同步。
+776ea509f7,2024/09/26,16:29,赵舒林,关闭文件管理器弹出窗口的单选和标签栏显示
+7c2303c8cd,2024/09/25,17:31,赵舒林,文件选择器功能更新
+3e61ce836a,2024/09/26,15:32,赵舒林,### commit message
+00e9c2c8b2,2024/09/26,13:45,赵舒林,```修复SwipeHelper.onClose()未调用的问题
+884a1ebe0e,2024/09/26,10:39,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+1cca7730d0,2024/09/26,10:39,赵舒林,优化Glide图片加载签名与缓存策略
+729a1d83e5,2024/09/25,18:40,赵舒林,```UI调整：设置运行任务项的背景颜色
+abc22a47d8,2024/09/25,15:25,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+2aa0556833,2024/09/25,15:24,赵舒林,浮窗坐标处理与屏幕旋转适配的代码优化
+0b4037faef,2024/09/24,17:24,赵舒林,内存优化：减少应用内存占用调整Glide加载策略，启用skipMemoryCache以减少内存占用。更新TaskManagerFragment，隐藏后台任务列表时清除alpha值，防止界面残留。
+03846e1d54,2024/09/24,13:50,赵舒林,调整UI元素背景色设置以优化视觉效果
+cf659ca4bb,2024/09/23,18:50,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+9d287877c4,2024/09/23,18:50,赵舒林,修正浮点参数中的上下文使用，调整图像缩放和布局参数
+08ba493a8f,2024/09/23,17:39,赵舒林,确保在关闭时调用`onClose`方法以执行必要的关闭操作
+80114c285b,2024/09/23,17:12,赵舒林,简化外部存储权限请求以符合Android 11+的策略
+2eaa6b85bc,2024/09/23,14:22,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+5bd819a498,2024/09/23,14:02,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+3c6e4713fb,2024/09/23,13:57,赵舒林,悬浮窗权限申请逻辑优化
+f40ebdf2f5,2024/09/23,11:03,赵舒林,Merge remote-tracking branch 'origin/feat_pad_upgrade' into feat_pad_upgrade
+0e5ec67a31,2024/09/23,11:02,赵舒林,优化外部存储权限检查逻辑
+ec13c86bd3,2024/09/20,18:14,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+75a46f4e6b,2024/09/20,18:13,赵舒林,优化文件管理器性能并重构代码
+15c552a784,2024/09/20,15:01,赵舒林,文件选择器结果重构和搜索处理优化
+aa359688fd,2024/09/20,11:29,赵舒林,小写扩展名以匹配LIKE搜索条件
+87b8d00e1d,2024/09/20,10:50,赵舒林,refactor(FSSearchBySuffix): 重构文件搜索结果处理
+376dc8418c,2024/09/19,18:32,赵舒林,```优化权限请求逻辑以符合Android11
+a2e1ee3345,2024/09/14,16:09,赵舒林,修正进度条颜色设置以使用上下文的白色
+47f7d95cb7,2024/09/14,15:29,赵舒林,优化文件搜索功能，支持指定后缀的文件查询
+467cca48af,2024/09/14,14:38,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+700112ace7,2024/09/14,11:45,赵舒林,锁定屏幕方向并优化UI模式和字体比例配置
+e542fc5588,2024/09/14,11:34,赵舒林,```修复图片选择器活动中的屏幕锁定和配置更改处理
+c8a9fcb537,2024/09/13,17:00,赵舒林,新增文件搜索后缀名处理功能及相关优化
+110381ca87,2024/09/13,15:11,赵舒林,修复了桌面模式下关闭运行栏后未去除桌面蒙版的问题。现在在关闭运行栏时，将同时隐藏桌面蒙版，确保界面表现一致。
+219dc44572,2024/09/13,14:43,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+31a7d35d8b,2024/09/13,14:43,赵舒林,```优化权限请求和悬浮窗行为
+c6035d9410,2024/09/13,13:45,赵舒林,修正外部存储权限检查逻辑
+935d8b0143,2024/09/13,13:35,赵舒林,```优化外部存储权限检查以适应Android11
+5c34cb0994,2024/09/13,11:39,赵舒林,修复了在回收资源后的皮肤应用逻辑。之前由于`applySkin()`函数在`finally`块中错误地放置，导致皮肤无法正确应用。此更改确保皮肤在视图资源被正确回收后应用。
+84bc45fb90,2024/09/12,16:47,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+7637c08b9a,2024/09/12,16:47,赵舒林,refactor(base,ui):简化代码并改进功能
+64a2f0c757,2024/09/12,15:44,赵舒林,调整文件管理器对话框以适应有无导航栏的设备
+0524e7db2f,2024/09/12,15:43,赵舒林,主题切换优化及代码格式调整优化主题切换逻辑，避免重复加载相同主题。调整多处代码格式，提高可读性及维护性。
+e041a010a9,2024/09/12,11:04,赵舒林,```调整图片加载指示器样式并优化加载片段布局
+766fd11543,2024/09/12,10:26,赵舒林,Merge remote-tracking branch 'origin/feat_pad_upgrade' into feat_pad_upgrade
+710c52a792,2024/09/12,10:14,赵舒林,扩展EdgerEnv类以收集和显示与设备相关的详细信息
+041c617ab6,2024/09/11,18:58,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+726dc32c8f,2024/09/11,18:58,赵舒林,优化`LoadingView`以正确处理尺寸和百分比
+033c0274ee,2024/09/11,18:00,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+a789253ff3,2024/09/11,17:52,赵舒林,```优化悬浮窗参数处理和屏幕尺寸获取逻辑
+803742899e,2024/09/11,16:43,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+73b66d363a,2024/09/11,16:43,赵舒林,```优化悬浮窗吸边逻辑以确保正确触发
+ce6b8aee88,2024/09/11,16:10,赵舒林,Merge remote-tracking branch 'origin/feat_pad_upgrade' into feat_pad_upgrade
+d952fba834,2024/09/11,14:58,赵舒林,扩展EdgerEnv类以收集和显示与设备相关的详细信息
+52cb81cc62,2024/09/10,19:17,赵舒林,```优化音频播放时间显示逻辑
+3ec71c57b9,2024/09/10,19:03,赵舒林,修复悬浮窗位置更新逻辑以响应配置更改
+2a0e801b5b,2024/09/10,18:24,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+18dcb812f2,2024/09/10,18:24,赵舒林,调整文件管理器对话框以适应有无导航栏的设备
+a39c3afa5f,2024/09/10,17:50,赵舒林,修复文件管理器对话框中的选定结果回调问题
+1592b87103,2024/09/09,19:07,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+8c8bdc9563,2024/09/09,19:04,赵舒林,日志优化及UI交互细节调整
+142da0d4d4,2024/09/09,16:47,赵舒林,优化FxView位置恢复逻辑以适应屏幕方向变化
+310dc3e6e0,2024/09/09,16:23,赵舒林,```优化FxViewLocationHelper和ScreenOrientationHelper的逻辑与日志记录
+980da385c1,2024/09/09,16:15,赵舒林,增加 关闭运行栏
+e7c3dbcaa3,2024/09/09,16:14,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+21e8020812,2024/09/09,16:13,赵舒林,增加 关闭运行栏
+6fe5eb90a4,2024/09/06,14:22,赵舒林,Merge remote-tracking branch 'origin/feat_pad_upgrade' into feat_pad_upgrade
+c530449e69,2024/09/06,14:22,赵舒林,refactor(features): 使用PopupWindow重新实现键盘监听器
+c8739097fb,2024/09/05,18:24,赵舒林,```优化音频播放器界面和背景图形
+13d5349500,2024/09/05,15:08,赵舒林,```优化文件路径处理和MD5加密性能
+282ec8e311,2024/09/05,15:00,赵舒林,fix(base): 修正资源生成和缓存键编码问题
+022b6c9450,2024/09/05,12:10,赵舒林,refactor(cache): 使用更复杂的方法解析URL查询参数
+a67b001cfd,2024/09/05,12:01,赵舒林,### Commit Message
+0d0e2fa113,2024/09/05,18:24,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+ac7de60fd2,2024/09/05,18:24,赵舒林,```优化音频播放器界面和背景图形
+cd3278bd54,2024/09/05,17:14,赵舒林,Merge remote-tracking branch 'origin/feat_pad_upgrade' into feat_pad_upgrade
+c05f65a96f,2024/09/05,17:14,赵舒林,refactor(features): 使用PopupWindow重新实现键盘监听器
+406c6c7b7b,2024/09/05,15:08,赵舒林,```优化文件路径处理和MD5加密性能
+466aa1cb07,2024/09/05,15:00,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+c5da5ebfa8,2024/09/05,15:00,赵舒林,fix(base): 修正资源生成和缓存键编码问题
+206f4b2920,2024/09/05,12:10,赵舒林,refactor(cache): 使用更复杂的方法解析URL查询参数
+a267ae8401,2024/09/05,12:02,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+372fb30f68,2024/09/05,12:01,赵舒林,### Commit Message
+668b591d0b,2024/09/04,18:38,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+90e6fdda2e,2024/09/04,18:37,赵舒林,```优化边缘应用的UI和布局
+549018134d,2024/09/04,17:54,赵舒林,新增键盘事件处理，支持键盘显示和隐藏操作
+3f0df5728a,2024/09/04,10:43,赵舒林,为AudioPlayerActivity添加screenOrientation属性以锁定屏幕
+991e98c3ad,2024/09/04,10:18,赵舒林,新增createViewNotShow()方法以支持隐藏视图创建
+5830f4eee3,2024/09/03,19:00,赵舒林,悬浮窗管理优化及后台创建悬浮窗功能
+a5f486b7e2,2024/09/03,16:01,赵舒林,隐藏浮动收集点布局以适应宽屏显示
+3fac3434f0,2024/09/03,15:54,赵舒林,国际化改进与布局调整
+38c5c63272,2024/09/03,15:44,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+727e505b81,2024/09/03,15:44,赵舒林,新增日志记录，优化`onTextEmptyShow`函数的调试与文本空值处理
+62b53f3d7b,2024/09/03,15:29,赵舒林,皮肤系统优化与键盘事件监听器实现
+920e5f327f,2024/09/03,12:02,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+320f871dfd,2024/09/03,12:01,赵舒林,自定义加载视图属性并增强加载对话框功能
+be6acdb830,2024/09/02,17:49,赵舒林,### Commit Message
+4892692382,2024/09/02,17:41,赵舒林,refactor(base): 重构ScreenOrientationHelper的实现
+cd8f4ac831,2024/09/02,17:34,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+b81ccc0918,2024/09/02,17:34,赵舒林,优化导航栏适配和横竖屏切换逻辑
+7ccea6ea1f,2024/09/02,11:40,赵舒林,Merge remote-tracking branch 'origin/feat_pad_upgrade' into feat_pad_upgrade
+47c1f4126c,2024/09/02,11:40,赵舒林,调整智能配置插件返回结果格式
+cf5e256924,2024/09/02,10:21,赵舒林,Merge remote-tracking branch 'origin/feat_pad_upgrade' into feat_pad_upgrade
+de4cb44bbf,2024/09/02,10:21,赵舒林,事件总线优化及UI自定义调整
+df7d06f85b,2024/08/30,16:45,赵舒林,统一Glide加载图标圆角半径的设置方法
+937882f8e9,2024/08/30,14:22,赵舒林,Merge remote-tracking branch 'origin/feat_pad_upgrade' into feat_pad_upgrade
+59fdb009f0,2024/08/30,14:22,赵舒林,refactor(smart-config): 重构智能配置功能以提高模块化和事件处理
+91b249035b,2024/08/29,18:19,赵舒林,feat(file-manager): 新增文件类型片段和视图切换支持
+147aac7c1d,2024/08/29,15:17,赵舒林,fix(base-ui): 修正图片配置中的后退图标
+657a8be493,2024/08/29,15:04,赵舒林,fix(base): 修复图片选择器中的内存泄漏和布局问题
+3a97120730,2024/08/28,11:32,赵舒林,文件管理代码优化
+9a0202723a,2024/08/27,11:41,赵舒林,Merge remote-tracking branch 'origin/feat_loading' into feat_loading
+f44a8ef214,2024/08/27,11:41,赵舒林,fix(features): 调整视频组件加载指示器的属性以提高可见性
+5191889572,2024/08/26,11:07,赵舒林,Merge remote-tracking branch 'origin/feat_pad_points' into feat_pad_points
+6bdccf1712,2024/08/26,11:07,赵舒林,refactor(screen-utils): 移除未使用的px2sp方法
+78602859ac,2024/08/26,10:32,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+d10a1289b9,2024/08/26,10:29,赵舒林,refactor(file-manager): 使用FileUtils获取文件大小及更新布局边距
+f15b1ccf0d,2024/08/26,10:15,赵舒林,根据设计稿修改弹窗大小
+62fc53544e,2024/08/26,10:13,赵舒林,feat(ui): 优化 LoadingView 组件
+a84ce1c2e3,2024/08/23,16:25,赵舒林,Merge remote-tracking branch 'refs/remotes/origin/feat_pad' into feat_loading
+328dd49bff,2024/08/23,16:12,赵舒林,根据设计稿修改弹窗大小
+8dd088cb1e,2024/08/23,16:02,赵舒林,根据设计稿修改弹窗大小
+bfade37dd5,2024/08/23,15:56,赵舒林,Merge remote-tracking branch 'refs/remotes/origin/feat_pad' into feat_loading
+8b53215bfe,2024/08/23,14:57,赵舒林,调整了UI元素的定位和尺寸，以适应不同的屏幕宽度，并对资源引用进行了更新。此外，还修正了在对话框高度计算上的一个错误，并更新了应用名称以反映其用途。此更新还确保了在不同设备配置下能正确显示新添加的尺寸定义。
+6a8c22574d,2024/08/23,11:24,赵舒林,fix(base): 修正WDB字体比例计算逻辑
+f04931fe8f,2024/08/23,11:23,赵舒林,```fix(base): 修正WDB字体比例以适应非平板设备
+5a715ea933,2024/08/23,11:19,赵舒林,refactor(base): 移除未使用的导入和函数 px2sp移除了ScreenUtils中的px2sp函数，因为它在重构中不再使用。同时，清理了PointsCollectionFloatView.kt中的导入，移除了未使用的SizeUtils引用，并用ScreenUtils替换以保持代码整洁。
+472065c02f,2024/08/23,11:17,赵舒林,refactor(utils): 移除未使用的导入和dimen扩展函数移除了PointsCollectionFloatView.kt中的未使用导入和dimen扩展函数，以简化代码并提高可维护性。
+b91e407146,2024/08/23,11:17,赵舒林,refactor(base): 移除未使用的px2sp方法
+564b24d86c,2024/08/23,11:10,赵舒林,fix:修复视频播放seekBar异常问题
+c947ff0de4,2024/08/23,11:10,赵舒林,Merge remote-tracking branch 'origin/feat_pad_points' into feat_pad_points
+5bdf9f8d1c,2024/08/23,11:10,赵舒林,更新PointsCollectionFloatView.kt中字体大小设置的方法调用，从SizeUtils更改为ScreenUtils，并修复可能的错误来源。
+01d6b7d4b2,2024/08/23,10:56,赵舒林,调整字体缩放以提高网页和应用内字体的一致性
+a2f8f55991,2024/08/23,10:49,赵舒林,fix(base): 统一加载对话框的尺寸并在平板上居中
+35d8967bde,2024/08/23,10:12,赵舒林,fix(openimagelib): 修复加载视图的大小和可见性问题
+88e1965f1d,2024/08/22,11:05,赵舒林,fix:合并分支
+f0942ff992,2024/08/22,10:46,赵舒林,Merge remote-tracking branch 'refs/remotes/origin/feat_pad' into feat_loading
+4c326418bf,2024/08/21,17:42,赵舒林,fix(task-manager): 启用任务列表的同步DiffUtil回调
+000b94983d,2024/08/21,17:42,赵舒林,Merge remote-tracking branch 'origin/feat_pad_font' into feat_pad_font
+1d4b4c8252,2024/08/21,17:42,赵舒林,fix(task-manager): 启用任务列表的同步DiffUtil回调
+47ce236df3,2024/08/20,16:06,赵舒林,UI调整：优化float_points_collection布局参数
+bde64260b7,2024/08/20,16:00,赵舒林,fix(float-view): 修正奖励和现金的布局和可见性
+429effeb4f,2024/08/20,15:33,赵舒林,chore(ui): 更新浮动红包界面布局
+a980a49b68,2024/08/20,16:06,赵舒林,UI调整：优化float_points_collection布局参数
+4acaef1c38,2024/08/20,16:00,赵舒林,fix(float-view): 修正奖励和现金的布局和可见性
+950fe6ad79,2024/08/20,15:33,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+cd6f38fcaa,2024/08/20,15:33,赵舒林,chore(ui): 更新浮动红包界面布局
+f399d6e8f4,2024/08/16,15:17,赵舒林,Merge remote-tracking branch 'origin/feat_load_localFile' into feat_load_localFile
+0788f07eb8,2024/08/16,15:17,赵舒林,feat(base-utils): 实现基于创建时间的本地文件路径验证
+0a17946387,2024/08/16,14:12,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+be4375943c,2024/08/16,14:12,赵舒林, 修正标题栏间距适配平板的问题
+bf885f8733,2024/08/15,17:04,赵舒林,本次更改针对平板设备（sw600dp及以上）进行了适配。主要调整包括： - 在`PictureConfig.kt`中，根据是否是平板设备，动态设置标题栏高度。 - 在`ps_title_bar.xml`中，增加平板设备的标题栏下边距和上边距，以符合设计规范。
+0ac99f80db,2024/08/15,15:08,赵舒林,将视频文件支持扩展到文件类型检测中
+48080608c6,2024/08/15,11:48,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+23b9a9ef21,2024/08/15,11:48,赵舒林,"移除FileException，改用日志记录错误"
+50e1555bc2,2024/08/14,17:05,赵舒林,在ps_title_bar.xml中添加布局边距
+6aa8ef6001,2024/08/14,17:02,赵舒林,优化图片选择器UI适配和资源引用 - 更新图片选择器的资源引用，以使用新的Drawable资源，适配不同设备。 - 优化标题栏样式配置，针对平板设备调整布局和资源。
+626f57fb7e,2024/08/14,15:04,赵舒林,"重构MediaFileApi以使用协程进行异步图像扫描"
+3ee1df94b6,2024/08/14,10:59,赵舒林,优化了点击事件处理和间距装饰，以提高性能和用户体验
+d09d5eddb7,2024/08/13,18:59,赵舒林,fix(edger): 修复文件选择器在特定渠道类型下的错误行为
+f916c4ae4c,2024/08/13,18:22,赵舒林,优化资源尺寸命名与调整平板UI布局
+abef99bc58,2024/08/13,17:38,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+5e07ef9287,2024/08/13,17:38,赵舒林,添加点击空白区域返回主页的功能
+dab7401e37,2024/08/13,17:08,赵舒林,调整视频组件布局以适应不同设备配置
+4c54fd16b8,2024/08/13,16:46,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+80ccb5c588,2024/08/13,16:46,赵舒林,优化布局和UI适配性，改进padding和radius的设置
+0b3bf22c60,2024/08/13,16:07,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+17f9db2e22,2024/08/13,16:07,赵舒林,"优化文件管理器对话框尺寸和布局"
+896dd5f09b,2024/08/13,14:47,赵舒林,使用`Environment.getExternalStorageDirectory().getPath()`替换硬编码的SD卡路径为了提高代码的可读性和可维护性
+eb61d28a4a,2024/08/13,14:41,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+6c2f645171,2024/08/13,14:40,赵舒林,"UI更新：优化平板UI布局及元素样式
+7b9df2d6e4,2024/08/13,11:31,赵舒林,1. **调整`SkinLinearLayoutCompat`初始化**: 代码在初始化`SkinLinearLayoutCompat`时，增加了对`dividerDrawableResId`的赋值。这可能是为了确保在皮肤更换时，`dividerDrawableResId`能正确加载皮肤资源。
+3a8c0d69a0,2024/08/13,11:21,赵舒林,调整LoadingFragment以支持横屏平板布局
+f43f5d3568,2024/08/13,10:51,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+1b7e79656a,2024/08/13,10:50,赵舒林,fix(media): 修正AlbumDirHandler中错误的结果代码
+0dfd2b0eb0,2024/08/12,11:18,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+057cb1f6c7,2024/08/12,11:17,赵舒林,fix(base): 确保SkinLinearLayoutCompat中dividerDrawable的正确应用
+5a502f401b,2024/08/12,11:02,赵舒林,修复导航栏高度未包含在PayDialog的最大高度中的问题
+bea7b4de3f,2024/08/10,17:47,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+62f625e26f,2024/08/10,17:47,赵舒林,bugfixs
+e808bf8e59,2024/08/10,17:23,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+6c65f1165d,2024/08/10,17:23,赵舒林,bug fix
+1a98550ec8,2024/08/10,11:56,赵舒林,新增夜间模式图标和ShapeButton皮肤支持
+e1fbdf66d4,2024/08/10,10:55,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+44ba324765,2024/08/10,10:55,赵舒林,使用event.getForwardedFor()作为source的首选来源
+e3dbf8bda8,2024/08/10,10:41,赵舒林,"优化UI布局和间距，调整文本大小和图标尺寸以提高用户体验"
+0157005265,2024/08/09,18:18,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+af72af6754,2024/08/09,18:18,赵舒林,优化FileManagerDialog，添加观察者以正确处理关闭事件
+062a0ef0f8,2024/08/09,17:25,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+8c93ad2943,2024/08/09,17:25,赵舒林,fix(edgerapp):修正文件选择器中的渠道类型检查
+d22b8d6e4f,2024/08/09,17:19,赵舒林,适应不同屏幕尺寸的视图页面指示器调整为适应不同屏幕尺寸，特别是横屏和平板电脑的屏幕，对ViewPager的tab指示器进行了自定义设置。在横屏模式下，指示器的最小宽度经过调整，以保持用户界面的布局和比例。此更改确保了更好的用户体验，特别是在大屏幕上。
+c5fcccf0a8,2024/08/09,17:15,赵舒林,优化ViewPagerFragment中tab的布局和样式
+c86d12092c,2024/08/09,17:01,赵舒林,```xml调整ViewPager2的TabLayout配置以优化宽度处理
+7e5f9bcb2c,2024/08/09,16:26,赵舒林,"调整文件选择器UI布局和逻辑检查条件"
+a1de7568eb,2024/08/09,16:02,赵舒林,"优化ViewPagerFragment中tabLayout的初始化逻辑，并添加空文件夹提示界面"
+62e8bc6948,2024/08/09,15:33,赵舒林,"检查并获取加载大图所需的权限"
+bb5cf64153,2024/08/09,14:03,赵舒林,fix(features): ensure proper max file num check in ShowFileSelectorHandlerCorrect the condition evaluation in ShowFileSelectorHandler to properly check
+0f4fe6c1d2,2024/08/09,13:57,赵舒林,feat(features): add empty file icon with gradient colorsAn empty file icon has been added to the features module.
+6c064c79ac,2024/08/09,11:23,赵舒林,feat(ui): 添加文件类型图标
+15704d80de,2024/08/09,10:52,赵舒林,feat(ui): 文件管理界面新增横屏平板适配
+c0626bd7d9,2024/08/08,17:10,赵舒林,fix(ui): adjust share sheet corner radius and solid color
+862b2e4903,2024/08/08,15:30,赵舒林,feat(ui): 修复最小化提示窗位置错误
+1f8224f75f,2024/08/08,15:20,赵舒林,fix: resolve tablet layout issues and optimize fragment transactionsOptimize the layout for tablets by ensuring that the web fragment and task manager fragments are replaced correctly in the UI. This change addresses the problem where the fragments were notreplacing each other as intended, causing layout overlaps and potential crashes on tablets.BREAKING CHANGE: The behavior of fragment transactions has been changed from 'add' to 'replace', which might affect the existing UI layout and navigation behavior in the app. It is important to review the UI behavior after this change to ensure it meets the expected user experience on tablets and other large-screen devices.
+96dda7621f,2024/08/08,11:01,赵舒林,fix(base-ui): ensure applySkin() is called after super.applySkin() in SkinSkinLinearLayout
+05bf78a364,2024/08/08,10:51,赵舒林,chore(android): 移除 SkinCoreV2 库
+b5a69df4ec,2024/08/08,10:49,赵舒林,chore(ui): 优化界面样式
+6307733deb,2024/08/08,10:05,赵舒林,Merge branch 'refs/heads/feat_pad' into feat_pad_theme
+e3a63107e6,2024/08/07,18:50,赵舒林,feat:适配新皮肤，优化动态颜色设置
+cd433a9830,2024/08/07,18:34,赵舒林,feat(ui): 使用 style 属性设置文本颜色
+5a26d0335a,2024/08/07,18:25,赵舒林,feat:适配新skin,移除无用的设置背景色
+c34834e5f0,2024/08/07,16:11,赵舒林,feat:适配新skin,移除无用的设置背景色
+7670203894,2024/08/07,11:47,赵舒林,Merge remote-tracking branch 'origin/feat_pad_theme' into feat_pad_theme
+08ff24b011,2024/08/07,11:47,赵舒林,fix(theme): optimize skin switch logic and update drawable resources
+f7c3099b96,2024/08/07,11:02,赵舒林,fix(theme): optimize skin switch logic and update drawable resources
+90330ded96,2024/08/07,10:12,赵舒林,fix(theme): resolve issues with theme change and RecyclerView refresh
+c447f28b30,2024/08/07,01:54,赵舒林,完善换肤功能，添加自定义控件支持
+cc395ad350,2024/08/07,01:36,赵舒林,完善换肤功能，添加自定义控件支持
+d758b9b650,2024/08/06,23:09,赵舒林,1. 在`SkinShapeHelper`中，重构了从属性中加载形状视图自定义颜色的逻辑，并移除了无效的导入语句，优化了代码的可读性和维护性。
+1bf199215e,2024/08/06,18:12,赵舒林,fix(bottomsheet): remove unnecessary padding for non-main activity dialogs
+f6ea4a6be2,2024/08/06,16:39,赵舒林,fix(shapeview): rename SkinCompatShapeButton and update references
+efeca9ba8f,2024/08/06,16:36,赵舒林,feat(ui): 移除 SuperTextView 并使用 SkinCompatShapeButton 替换
+aafe38b6d7,2024/08/06,11:48,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+74d95c874a,2024/08/06,11:48,赵舒林,refactor(eap): 重构RunningTaskAdapter以简化视图绑定
+5c5bebc816,2024/08/06,11:28,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+4e0869e2ea,2024/08/06,11:25,赵舒林,feat(eap): 添加后台任务事件监听
+83b2794198,2024/08/05,18:40,赵舒林,feat(eap): 添加后台任务事件监听
+067fe1476a,2024/08/05,18:05,赵舒林,feat(eap): 添加后台任务事件监听
+6cc1a50477,2024/08/05,18:04,赵舒林,fix(ui): 优化应用图标显示方向并适配平板电脑对RunningItemProvider进行了修改，实现了根据设备方向及屏幕大小自适应旋转应用图标的功能。
+e18b238c0b,2024/08/05,17:45,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+750fc837c0,2024/08/05,17:45,赵舒林,fix(ui): 优化引导页布局并适配不同设备
+c63199cee6,2024/08/02,19:52,赵舒林,feat(ui): 调整拍照页面返回按钮尺寸
+11d26ffbef,2024/08/02,19:46,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+3e1a68eec9,2024/08/02,19:44,赵舒林,feat(ui): 在MinClickGuideView、MinLongClickGuideView中添加导航栏距离
+5deee2acf5,2024/08/02,17:15,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+f2693ba18b,2024/08/02,17:15,赵舒林,feat(ui): 优化运行中任务列表图片加载逻辑
+bec3cf53a5,2024/08/02,16:09,赵舒林,chore(ui): 调整部分UI细节
+aea7ef6695,2024/08/02,15:50,赵舒林,feat(ui): 调整任务管理界面卡片样式
+b760deb6fb,2024/08/02,14:23,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+5a470711f6,2024/08/02,14:23,赵舒林,feat(media): 优化图片加载时的 loading 状态 对 Loading 状态进行调整，确保图片加载成功或失败时能够正确显示 loading 状态。
+db7d4e3430,2024/08/01,18:38,赵舒林,feat(eap): 添加后台任务事件监听
+c54c54d067,2024/08/01,18:37,赵舒林,feat(ui): 更新夜间模式逻辑
+c20f820f81,2024/08/01,18:13,赵舒林,chore(ui): 修改正在运行的任务item背景颜色
+7697127eac,2024/08/01,17:25,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+aecb2df166,2024/08/01,17:25,赵舒林,refactor(show-image): optimize orientation change logic and remove unused code
+94d40ee2c3,2024/08/01,15:56,赵舒林,feat(ui): 优化任务管理器 UI
+9fd32c1a39,2024/08/01,14:21,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+efb8d60708,2024/08/01,14:21,赵舒林,feat(ui): 增加分享底部弹窗功能
+0bfe738a19,2024/08/01,12:11,赵舒林,fix(ui): 修复后台任务列表显示问题
+9dd7ec1090,2024/07/31,19:09,赵舒林,feat(ui): 在运行任务项中添加涟漪效果
+55a9de5112,2024/07/31,18:54,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+ec9e672e5c,2024/07/31,18:54,赵舒林,chore(ui): 优化桌面运行中卡片显示
+6cfeffa1ce,2024/07/31,17:11,赵舒林,feat(eap): 添加后台任务事件监听
+c5968dd901,2024/07/31,15:15,赵舒林,chore(ui): 优化分享BottomSheet布局
+4e6f382da2,2024/07/31,14:56,赵舒林,feat(ui): 更新支付页面和分享页面的布局 - 更新分享页面的布局，使其更加美观和易用 - 使用androidx.appcompat.widget.LinearLayoutCompat代替LinearLayout，解决部分机型兼容性问题
+275180fc74,2024/07/31,12:13,赵舒林,fix(theme): 精简设置主题时的when语句 移除了when语句中的冗余空行和条件分支周围的空格，使代码更加紧凑易读。
+16c34cba16,2024/07/30,19:32,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+f14fd98ea4,2024/07/30,19:32,赵舒林,fix(ui): adjust TaskPanelFloatView layout for tablets and logcat cleanup- Modify TaskPanelFloatView layout parameters to correctly adjust the width and height based on whether the device is a tablet or not, using min and max   functions to ensure proper dimension calculation.
+23daf1c1f4,2024/07/30,19:13,赵舒林,chore(ui): 优化任务管理页面动画及高度计算
+ee97c36a15,2024/07/30,17:13,赵舒林,feat(ui): 添加Switch控件换肤支持 更新Switch控件换肤逻辑，使其能够正确应用换肤主题。
+36b3aaf87b,2024/07/30,13:45,赵舒林,feat(ui): 更新 UI 以支持平板设备
+5c0fd96f46,2024/07/30,11:59,赵舒林,feat(ui): 修改RunningItemProvider圆角计算逻辑 调整了RunningItemProvider中圆角计算逻辑，使其在平板设备上使用更大的圆角。
+9584f6a4db,2024/07/30,11:32,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+7fd049c90e,2024/07/30,11:32,赵舒林,refactor(ui): 优化 CoverLayerFragment 标题布局 移除了一些不必要的计算，简化了标题布局的逻辑。
+6122c23b17,2024/07/30,11:31,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+7b905382d0,2024/07/30,11:31,赵舒林,refactor(ui): 优化 CoverLayerFragment 标题布局 移除了一些不必要的计算，简化了标题布局的逻辑。
+09fa4ebe14,2024/07/30,11:07,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+5abd0f2643,2024/07/30,11:07,赵舒林,feat(ui): 调整任务管理器导航栏
+b6ff7407c7,2024/07/29,18:18,赵舒林,fix(dialog): prevent dialog from showing in TransactionActivity
+76f3ee5bee,2024/07/29,16:43,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+15a01121a7,2024/07/29,16:43,赵舒林,refactor(media-browse): optimize tablet layout and animation for cover layer
+60ee40afc9,2024/07/29,16:06,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+cdcc16b246,2024/07/29,16:06,赵舒林,refactor(media): optimize UI and logging in tablet mode
+491fb2622d,2024/07/29,14:28,赵舒林,fix(features): remove background color from player_bottom_action.xml
+8c8d944784,2024/07/29,14:02,赵舒林,fix(features): remove background color and adjust text size in UI components
+b77efe80ed,2024/07/29,13:52,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+4ee325a45e,2024/07/29,13:51,赵舒林,fea tablet: 优化平板布局和交互体验
+1d7e4b913e,2024/07/27,23:10,赵舒林,优化布局文件中ConstraintLayout的约束关系
+e0d1330255,2024/07/27,15:14,赵舒林,修正`reSetUI`逻辑判断条件，避免界面重置时的异常行为
+36d5c26d7a,2024/07/27,15:01,赵舒林,优化TaskManagerFragment界面显示与后台任务清理逻辑
+576e1b258a,2024/07/27,13:53,赵舒林,fix:修改view大小
+cda27646c0,2024/07/27,13:48,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+4c0656781b,2024/07/27,13:47,赵舒林,fix:修改view大小
+637f51a9b0,2024/07/26,20:16,赵舒林,fix(base): adjust toast width to fit text content
+27e426bdbc,2024/07/26,19:37,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+3e979ece07,2024/07/26,19:37,赵舒林,refactor(audio-player): adjust text size for tablet compatibility
+ea144d493e,2024/07/26,19:22,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+f94d197332,2024/07/26,19:22,赵舒林,refactor(task-manager): improve adapter and animation logic for background tasks
+5410a1a602,2024/07/26,19:07,赵舒林,refactor(task-manager): optimize background task removal animation and visibility logic
+b130a41034,2024/07/26,18:57,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+97e3373bbc,2024/07/26,18:56,赵舒林,优化空布局显示
+4335eacd2a,2024/07/26,18:41,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+0733a75272,2024/07/26,18:35,赵舒林,refactor(ui): optimize layout and image size for desktop UI
+0fe9b108e7,2024/07/26,12:07,赵舒林,fix(ui): prevent RecyclerView crash when layout manager is initialized
+b25c1cb2c2,2024/07/26,12:05,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+17ce225b78,2024/07/26,12:05,赵舒林,feat(desktop-ui): optimize item decoration and layout manager for pad
+b7e55701fe,2024/07/26,12:03,赵舒林,feat(photo-view): update layout and icons for live photo feature
+ada0e3fca4,2024/07/25,20:25,赵舒林,Merge remote-tracking branch 'origin/feat_pad' into feat_pad
+a970ebe16c,2024/07/25,20:25,赵舒林,feat/ui: optimize background task removal animation and adapter logic
+9e2c3c063d,2024/07/25,20:08,赵舒林,feat/ui: optimize background task removal animation and adapter logic
+dffce5f054,2024/07/25,19:38,赵舒林,feat/ui: optimize background task adapter and animation
+63f6604152,2024/07/25,19:00,赵舒林,feat(media): optimize rotate button and layout for tablet
+5a140391c7,2024/07/25,17:14,赵舒林,refactor(min-guide): optimize layout and padding for better UI experience
+e759075e1a,2024/07/25,16:49,赵舒林,替换引导动画
+fbfa768572,2024/07/25,16:12,赵舒林,feat(screen-utils): add ScaleHeightPx extension and optimize animations
+0969269097,2024/07/25,14:52,赵舒林,feat(utils): update scale width and height functions, improve animations
+e585bc0264,2024/07/25,14:35,赵舒林,refactor(player): adjust layout dimensions for icon font text view
+4898f9030c,2024/07/25,11:11,赵舒林,feat: optimize layout and add new decoration for task manager
+625a6ce00d,2024/07/24,17:31,赵舒林,refactor: 调整平板和手机的字体及图标大小根据平板和手机的屏幕尺寸，对字体和图标的大小进行了适当调整，修改了布局文件中的文本大小和图标的尺寸，并在代码中适配了
+d1299a08b5,2024/07/24,11:22,赵舒林,feat(task-manager): optimize empty text view animation in landscape mode
+225fed5088,2024/07/23,19:03,赵舒林,refactor(adapter): change back view variable name and adjust layout params
+67f354142c,2024/07/23,18:52,赵舒林,refactor: improve layout and animation in TaskManagerFragment
+45460177e1,2024/07/23,15:21,赵舒林,fix: 修改ImageView布局参数为FrameLayout.LayoutParams以修复显示问题
+79cf9788d5,2024/07/23,14:12,赵舒林,feat: 更新 live photo 图标和优化触摸跟随布局 - 更新了取消和播放 live photo 的图标文件。
+5be886c715,2024/07/23,11:13,赵舒林,fix:修复打开eap的动画
+0710d5c644,2024/07/23,10:46,赵舒林,fixMainActivity: enable orientation change based on event result
+de1f5094e9,2024/07/22,19:24,赵舒林,fix(features): adjust layout and add utility imports in CoverLayerFragment
+f06a7bd831,2024/07/22,18:30,赵舒林,fix(features): 捕获视频播放seekTo异常并优化布局- 在PlayControlComponent中添加try-catch块以捕获并处理异常，确保应用稳定运行。 - 调整cover_layer_fragment.xml中rotate按钮的布局和文字大小，提供更好的视觉体验。 - 新增min_click_guid.xml、min_hint_tips.xml、min_long_click_guid.xml布局文件，优化点击和长按提示框的设计。
+2a4b94456b,2024/07/22,16:39,赵舒林,fix:避免视频播放seekBar在最大值为0时的异常
+d851ca31da,2024/07/22,16:23,赵舒林,fix:修复视频播放seekBar异常问题
+63f99b9d8a,2024/07/22,16:13,赵舒林,feat:优化任务管理器布局和动画
+20b8ad9efd,2024/07/19,19:39,赵舒林,feat:优化任务管理器布局和动画
+eacdf461dc,2024/07/19,15:43,赵舒林,fix(ui): 调整 Pad 屏幕方向逻辑并优化图标尺寸
+13aadd74d6,2024/07/19,14:24,赵舒林,feat 更新 aar
+55486dff89,2024/07/18,19:17,赵舒林,feat: pad 适配
+a73728122c,2024/07/18,19:16,赵舒林,feat: pad 适配
+de3bb286f2,2024/07/18,16:28,赵舒林,feat(screen-ratio): 计算屏幕高宽比并应用到任务卡片布局 在TabletTaskManagerFragment中，根据屏幕高宽比调整任务卡片的高度，以实现更好的界面适配。
+b84cf354f0,2024/07/17,16:49,赵舒林,fix(ui): 调整任务管理器背景视图高度以适配平板
+1f1bbe282b,2024/07/17,16:19,赵舒林,fix:调整后台任务列表项在平板上的宽度
+4d6ba842e7,2024/07/17,13:43,赵舒林,feat(audio-player): 适配land模式下音频播放器布局
+634759c880,2024/07/16,18:28,赵舒林,fix(ui): 运行任务栏适配pad
+4864e02f5f,2024/07/16,17:33,赵舒林,fix(ui): 运行任务栏适配pad
+0149f9d0c2,2024/07/12,20:00,赵舒林,fix: correct dimension ratio and remove redundant constraints in layout
+ed91c7b6cb,2024/07/12,17:43,赵舒林,fix:修复EdgerVideoPlayerFragment中配置更改后LivePhoto不显示的问题
+7bd93a019d,2024/07/12,16:38,赵舒林,feat:调整布局和样式以优化平板体验
+d7ef54b7d3,2024/07/12,15:32,赵舒林,fix:修改播放live photo 不现实的问题
+b4b941e9d4,2024/07/11,19:45,赵舒林,feat:动态调整任务管理器布局以适配平板设备针对平板设备，优化了任务管理器的布局和元素尺寸
+2d26b039c1,2024/07/11,10:50,赵舒林,feat: 实现根据设备类型调整任务管理器布局
+8f2fe06541,2024/07/10,11:57,赵舒林,feat(openimagelib): LoadingView升级为 ProgressBar
+3a84e704f0,2024/07/10,11:57,赵舒林,Rename .java to .kt
+bfdc5babe4,2024/07/08,16:50,赵舒林,fix(ui): 修复main_desktop_content.xml中的autoLayout属性
+e687c443c7,2024/07/05,17:27,赵舒林,feat(build): 添加华为和荣耀仓库的URL
+00cd5398c2,2024/07/05,16:38,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+9be6231498,2024/07/05,16:37,赵舒林,fix(base): 移除READ_PHONE_STATE权限并更新OAID依赖移除了不再需要的READ_PHONE_STATE权限，以减少不必要的用户权限请求。 同时，更新了OAID的依赖版本，以保持项目的最新和安全状态。
+635df57180,2024/07/02,16:50,赵舒林,fix(fonts-scale): correct initialization to use system scale
+e67cfaa4f8,2024/06/27,17:13,赵舒林,fix:修复base和features模块的字体和语言设置
+0c80647f86,2024/06/27,15:34,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+80fc7591d3,2024/06/27,15:33,赵舒林,fix(base): add redundant 'px'
+402115d28d,2024/06/26,17:42,赵舒林,fix(fs-handler): correct channel type comparison in ShowFileSelectorHandler
+f5e3c3fd91,2024/06/26,17:31,赵舒林,Merge remote-tracking branch 'origin/feat_file_channel_type' into feat_file_channel_type
+4360abe126,2024/06/26,17:31,赵舒林,refactor(filemanager): make file type constants immutable
+dafe03e3c8,2024/06/26,17:29,赵舒林,fix:字段优化
+fd16887c45,2024/06/26,15:54,赵舒林,fix:文件选择增加channel
+5e8cfd7f3d,2024/06/26,11:53,赵舒林,fix:修改eap字段为空导致的异常
+c0d76ffdbb,2024/06/25,17:55,赵舒林,fix:统一设置底部弹窗的安全区
+4ef7b3fccc,2024/06/25,17:31,赵舒林,fix:统一设置底部弹窗的安全区
+a26b8b6e3d,2024/06/24,18:08,赵舒林,fix:Splash
+5bbe4f8297,2024/06/24,16:24,赵舒林,fix:取消强制竖屏限制
+abcada8e41,2024/06/24,16:03,赵舒林,fix:取消强制竖屏限制
+6577fb49fa,2024/06/24,13:42,赵舒林,fix:取消强制竖屏限制
+8773782d8d,2024/06/21,18:47,赵舒林,fix:优化文件选择速度
+6e1bbb999a,2024/06/21,18:22,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+2ba9f0d857,2024/06/21,18:21,赵舒林,fix:提高文件查找效率
+ecc5d11f95,2024/06/21,18:16,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+3a851c01e2,2024/06/21,18:15,赵舒林,fix:文件选择速度优化
+8e8985339c,2024/06/21,18:00,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_bugfix
+c43c146e55,2024/06/20,18:30,赵舒林,fix:dialog UI 修改
+9b1c790b0f,2024/06/20,17:51,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_file_manager
+471891af8e,2024/06/20,16:43,赵舒林,fix:dialog UI 修改
+350bc409e5,2024/06/20,15:35,赵舒林,fix:字体加粗
+85ac104231,2024/06/20,15:32,赵舒林,fix:需求变更
+6da5dbc901,2024/06/20,14:38,赵舒林,fix:代码优化
+051e9627d9,2024/06/20,14:27,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+d7130c1f39,2024/06/20,14:26,赵舒林,fix:代码优化
+73ed805625,2024/06/19,19:23,赵舒林,fix:文件排序优化
+99c2e97e4a,2024/06/19,18:16,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+b04908c047,2024/06/19,18:14,赵舒林,fix:修复中心弹窗不消失
+70afe272d2,2024/06/19,17:34,赵舒林,fix:代码优化
+95bce75f3a,2024/06/19,17:26,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+48cb3490ae,2024/06/19,17:25,赵舒林,fix:引导动画等比放大
+08322e8e6b,2024/06/19,16:24,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+7b80ff0d82,2024/06/19,16:23,赵舒林,fix:代码优化
+d1a3e1c148,2024/06/19,16:02,赵舒林,fix:文件tab修改
+5bf8355d7c,2024/06/19,15:25,赵舒林,fix:BUG_022388
+3c43b4e4c7,2024/06/19,15:13,赵舒林,fix:打字模式高度调整
+28cc0c44f5,2024/06/19,12:13,赵舒林,fix:状态栏颜色修改
+cc6049fc9b,2024/06/18,17:24,赵舒林,fix:悬浮球位置修改
+a581a990d6,2024/06/18,16:46,赵舒林,fix:对接创建相册弹窗
+7e7fa9aab2,2024/06/18,16:01,赵舒林,fix:根据新的需求修改功能
+f7da980223,2024/06/18,15:30,赵舒林,fix:弹窗代码优化
+5711cf9c74,2024/06/18,12:18,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+600baf5273,2024/06/18,12:16,赵舒林,fix:代码优化
+f5bd024862,2024/06/18,10:33,赵舒林,fix:共享创建相册功能对接
+d158dc4c66,2024/06/17,18:49,赵舒林,fix:文件选择优化
+9adb0d50cf,2024/06/17,18:04,赵舒林,fix:代码优化
+47e631cd36,2024/06/17,16:55,赵舒林,fix:增加文件返回类型
+f094cb9e69,2024/06/17,10:46,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_file_manager
+7bd6ab1bed,2024/06/14,18:24,赵舒林,fix:修复悬浮球黑背遮挡的问题
+04e2aff0ce,2024/06/14,17:09,赵舒林,fix:悬浮窗安全区加入导航栏
+e05ee40327,2024/06/14,16:58,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+c39c067b6d,2024/06/14,16:58,赵舒林,fix:修复点击透传问题
+2b2f58e8c2,2024/06/14,16:19,赵舒林,fix:更新弹窗aar
+b34b0398e8,2024/06/14,16:16,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+3182eb02d9,2024/06/14,16:16,赵舒林,fix:修复弹窗会导致键盘弹起的问题
+22d1cf92f9,2024/06/14,10:44,赵舒林,fix:更新主题aar
+74b4261381,2024/06/14,10:28,赵舒林,fix:主题优化，取消demo按钮
+fbf5a0f3d4,2024/06/13,19:28,赵舒林,fix:文件类型优化
+de91778381,2024/06/13,18:31,赵舒林,Merge remote-tracking branch 'origin/feat_file_manager' into feat_file_manager
+c1d347ee3b,2024/06/13,18:31,赵舒林,fix:文件选择功能-文件增加ULR地址
+f3eef3ff3c,2024/06/13,14:18,赵舒林,fix:代码优化
+e69c857399,2024/06/12,19:12,赵舒林,fix:优化弹窗底部。深浅色适配
+a32fce9405,2024/06/12,17:09,赵舒林,fix:深浅色适配
+963073b076,2024/06/12,10:46,赵舒林,fix:修复主题问题
+ca9659369c,2024/06/11,18:14,赵舒林,fix:文件选择功能开发
+2e2ad071ec,2024/06/11,17:10,赵舒林,Merge remote-tracking branch 'origin/feat_file_manager' into feat_file_manager
+3ca42858f4,2024/06/11,17:09,赵舒林,fix:文件选择功能开发
+887eed0f56,2024/06/07,18:48,赵舒林,fix:文件浏览功能开发
+029fdb6d3d,2024/06/07,16:45,赵舒林,fix:BUG_022261
+53610ab4f4,2024/06/06,18:43,赵舒林,fix:代码优化
+d62f6dc6b6,2024/06/06,18:16,赵舒林,Merge remote-tracking branch 'origin/feat_safe_area' into feat_safe_area
+da934580f1,2024/06/06,18:14,赵舒林,fix:注入用户协议底部安全区
+4cf4e256fa,2024/06/05,18:52,赵舒林,fix:文件上传功能开发
+315e6b59a0,2024/06/05,16:22,赵舒林,Merge remote-tracking branch 'origin/feat_safe_area' into feat_safe_area
+9972b2970e,2024/06/05,16:22,赵舒林,fix:中心弹窗适配导航栏
+d24875bb97,2024/06/05,11:59,赵舒林,fix:增加localInfo
+6b2bc0a1e0,2024/06/03,18:58,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+fecbf55e11,2024/06/03,18:58,赵舒林,fix:代码优化
+4e75f6e275,2024/06/03,17:29,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_file_manager
+ac7676a9e0,2024/06/03,16:07,赵舒林,fix:代码优化
+afe4ec2e19,2024/06/03,16:04,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+4d47ec60c6,2024/06/03,16:03,赵舒林,feat:字体缩放功能开发
+fd2afbeb52,2024/06/03,11:29,赵舒林,feat:文件浏览功能开发
+17b07ad212,2024/05/31,18:38,赵舒林,fix：bug修改
+458eb2266e,2024/05/31,18:33,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+d04bf54ea4,2024/05/31,18:32,赵舒林,fix：bug修改
+23b9482217,2024/05/31,18:14,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+e25c69dd42,2024/05/31,18:14,赵舒林,fix：使用新的积分弹窗样式
+1559cba8a5,2024/05/31,16:58,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+c02b4a375f,2024/05/31,16:58,赵舒林,fix：兼容小米手机字体缩放兼容
+ac9d632651,2024/05/31,10:25,赵舒林,fix:文件浏览功能开发
+986674ee59,2024/05/30,18:08,赵舒林,Merge remote-tracking branch 'origin/dev' into overlay_close_all
+9a6a618d6c,2024/05/29,17:36,赵舒林,Merge remote-tracking branch 'origin/overlay_close_all' into overlay_close_all
+59ca471c1f,2024/05/29,17:36,赵舒林,fix:app_overlay_close_all 需要把这个指令覆盖了
+530cd0bb71,2024/05/29,17:17,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+632e562b40,2024/05/29,17:06,赵舒林,fix:图标缩放优化
+a3e5b9226f,2024/05/29,16:41,赵舒林,fix:优化代码
+fa53183757,2024/05/29,16:30,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+78c5243e3c,2024/05/29,16:30,赵舒林,fix:优化代码
+c44b31c64b,2024/05/29,15:24,赵舒林,fix:对接关闭弹窗指令
+efad3f15e4,2024/05/29,14:38,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_fonts_scale
+2e55441a89,2024/05/29,10:17,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+68f499f967,2024/05/29,10:15,赵舒林,fix:只有
+424aa35945,2024/05/28,16:15,赵舒林,Merge branch 'feat_uniqueId_encrypt' into feat_bugfix
+e43115a71a,2024/05/28,16:13,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_uniqueId_encrypt
+422317c7bd,2024/05/28,16:13,赵舒林,Merge remote-tracking branch 'origin/overlay_close_all' into overlay_close_all
+815f04a85c,2024/05/28,13:46,赵舒林,fix:弹窗关闭所有
+891f515bc4,2024/05/28,10:23,赵舒林,fix：代码优化
+e6453e794f,2024/05/27,19:01,赵舒林,fix:字体缩放问题
+503c28b840,2024/05/27,18:23,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+af8371f7df,2024/05/27,18:22,赵舒林,fix:字体缩放问题
+fff2ee1eeb,2024/05/27,17:44,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+cecbbcd813,2024/05/27,17:43,赵舒林,fix:字体缩放问题修改
+1937ca8573,2024/05/27,16:03,赵舒林,fix:隐私协议注入字体大小
+2ca58a8fc3,2024/05/27,14:55,赵舒林,fix:打开H5修复
+0506488e9d,2024/05/24,11:42,赵舒林,fix:调整文件id生成方式
+3c866e581b,2024/05/23,19:18,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+9fd0243abc,2024/05/23,19:15,赵舒林,fix:修改文件路径
+3c324f48bd,2024/05/23,18:41,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+f656e1f53f,2024/05/23,18:40,赵舒林,fix:修复悬浮球位置偏移的问题
+0220d7d733,2024/05/23,16:31,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+e147302084,2024/05/23,16:31,赵舒林,fix:修复悬浮球位置偏移的问题
+70d88e6a70,2024/05/23,10:35,赵舒林,fix:BUG_021908
+a64f9a8a87,2024/05/22,16:04,赵舒林,Merge remote-tracking branch 'origin/feat_fix_navigation' into feat_fix_navigation
+6bbea81091,2024/05/22,16:03,赵舒林,feat:原生半窗支持禁用某一项-android
+1b214d5d97,2024/05/22,11:20,赵舒林,fix:优化类型为空判断
+62f64593a6,2024/05/22,10:44,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_fix_navigation
+0550e64f05,2024/05/16,16:33,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_fix_navigation
+07bb110b3d,2024/05/14,14:42,赵舒林,fix:exo使用okhttp处理网络连接
+31d8052033,2024/05/14,10:16,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+4312f3e133,2024/05/14,10:15,赵舒林,fix:域名切换拦截器优化
+69a4d64710,2024/05/13,17:11,赵舒林,Merge remote-tracking branch 'origin/feat_network_access' into feat_network_access
+d82c76c52f,2024/05/13,17:11,赵舒林,fix:修改文件路径
+5ccbcc62a7,2024/05/11,18:39,赵舒林,fix:修复bug
+4806284b9d,2024/05/11,16:15,赵舒林,fix:修复横屏状态下截图不全的问题
+227506718e,2024/05/11,16:16,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+504dd863f5,2024/05/11,16:15,赵舒林,fix:修复横屏状态下截图不全的问题
+320b237231,2024/05/10,11:41,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+f47c3a892b,2024/05/10,11:41,赵舒林,fix:优化了引导弹窗的逻辑，加快弹出
+f5e0f1c17a,2024/05/10,10:34,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+7c3e94a556,2024/05/10,10:34,赵舒林,fix:优化引导动画
+f5612a9df6,2024/05/09,19:17,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+2d5c06ed0d,2024/05/09,19:17,赵舒林,fix:bug修复
+fb85c0fcd7,2024/05/09,16:24,赵舒林,fix:防止在屏幕旋转时视频播放为空
+cb8620f061,2024/05/09,13:49,赵舒林,fix:修改图片、视频url 优先使用本地地址
+c5e7eed2cd,2024/05/09,11:57,赵舒林,Merge remote-tracking branch 'origin/feat_uniqueId_encrypt' into feat_uniqueId_encrypt
+19466470dd,2024/05/09,11:56,赵舒林,fix:修改文件路径
+404fa67bdb,2024/05/08,11:54,赵舒林,fix:修改文件路径
+c2373f2afc,2024/05/08,11:45,赵舒林,fix:修改sp文件的context
+a4b1ed9c44,2024/05/08,11:28,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+6511de4f65,2024/05/08,11:27,赵舒林,fix:新增、修改运行面板指令
+543894a9dd,2024/05/08,10:42,赵舒林,Merge remote-tracking branch 'origin/feat_uniqueId_encrypt' into feat_uniqueId_encrypt
+a92b0e556d,2024/05/08,10:42,赵舒林,fix:修改文件id生成方式
+b0aa027d52,2024/05/07,17:39,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+9e7c43db2c,2024/05/07,17:38,赵舒林,fix:BUG_021283
+893f5f14f2,2024/05/07,11:04,赵舒林,Merge remote-tracking branch 'origin/feat_fix_navigation' into feat_fix_navigation
+af10899511,2024/05/07,11:04,赵舒林,fix:解决Android 一些版本在app打开情况下媒体文件新增检测不到的问题
+9b078e69b6,2024/05/06,15:32,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_fix_navigation
+9980bb41a5,2024/05/06,10:33,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+608294667b,2024/05/06,10:33,赵舒林,fix:优化代码
+9f668ca352,2024/04/30,16:24,赵舒林,fix:只有在系统字体缩放变化的时候才重启
+c05f9e8466,2024/04/29,12:46,赵舒林,fix:优化兼容性问题
+096e2e06a6,2024/04/29,11:48,赵舒林,Merge branch 'develop_android_fonts_scale' into feat_fonts_scale
+25e816c00b,2024/04/29,11:21,赵舒林,fix:文字缩放功能优化
+128f443dc9,2024/04/29,10:44,赵舒林,fix:BUG_021141 修复、音频缓存路径修改
+2005593dcd,2024/04/28,16:39,赵舒林,Merge remote-tracking branch 'origin/dev' into feat_fonts_scale
+dbbdcb92ca,2024/04/28,16:32,赵舒林,Merge remote-tracking branch 'origin/feat_fonts_scale' into feat_fonts_scale
+3d01a9c617,2024/04/28,16:31,赵舒林,Merge branch 'develop_android_fonts_scale' into feat_fonts_scale
+da4976a448,2024/04/28,16:30,赵舒林,fix:修改弹窗的高度
+9a995cd2af,2024/04/25,11:32,赵舒林,fix:悬浮球增加黑名单activity
+c53d20c5d9,2024/04/25,11:29,赵舒林,fix:悬浮球增加黑名单activity
+9030024bfe,2024/04/24,17:45,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+c35f69ca25,2024/04/24,17:44,赵舒林,fix:BUG_020916
+b3accdc432,2024/04/24,16:45,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+3e2abed646,2024/04/24,16:44,赵舒林,fix:删除缓存文件
+7609b29941,2024/04/24,16:35,赵舒林,fix:文件分享路径修改
+97b8c9f290,2024/04/24,10:55,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+8bd21b8ba5,2024/04/24,10:54,赵舒林,fix:不关闭分享activity
+8ecca7d513,2024/04/24,10:15,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+af0668b679,2024/04/24,10:15,赵舒林,fix:修改文件路径
+75b5f6accc,2024/04/24,10:13,赵舒林,fix:打开动画优化
+6a1cd9a068,2024/04/23,15:10,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+6bf61b491a,2024/04/23,15:10,赵舒林,fix:修改文件路径
+6199e54fc6,2024/04/23,14:49,赵舒林,fix：发送关闭指令
+d727645989,2024/04/23,11:09,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+454ecaefef,2024/04/23,11:09,赵舒林,fix:增加关闭动画
+9863efb2a4,2024/04/23,11:08,赵舒林,fix:增加关闭动画
+c169d40e34,2024/04/22,16:33,赵舒林,fix:长按引导页面适配字体缩放
+8080a8b33b,2024/04/22,15:39,赵舒林,fix:打开动画优化
+2b32de2ad1,2024/04/22,15:35,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+1efd771098,2024/04/22,15:35,赵舒林,fix:增加通过content url 获取文件信息
+fe95044eed,2024/04/22,14:33,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+4a91350862,2024/04/22,14:32,赵舒林,fix:修改文件状态id
+d167cdf14a,2024/04/22,10:46,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+147df22bb2,2024/04/22,10:46,赵舒林,fix: add system.share
+cb54e04083,2024/04/22,10:20,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+19f8f43263,2024/04/22,10:19,赵舒林,fix:打开动画优化
+19db568392,2024/04/19,18:02,赵舒林,fix:文字缩放适配
+a6e76f7d88,2024/04/19,16:10,赵舒林,feat:对接文字比例指令
+0ec708576b,2024/04/19,13:43,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+afaa78463b,2024/04/19,13:43,赵舒林,fix:打开动画优化
+0f087c5943,2024/04/19,11:39,赵舒林,fix调整全局字体缩放比例
+531c08a641,2024/04/19,11:25,赵舒林,fix:修改积分深浅色
+32f7395ed3,2024/04/19,11:15,赵舒林,Merge branch 'feat_fonts_scale' into develop_android_fonts_scale
+64ba6999b2,2024/04/19,10:32,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+021c667df4,2024/04/19,10:32,赵舒林,fix:增加深浅色适配
+94ce72c068,2024/04/18,10:55,赵舒林,feat:字体缩放功能开发
+31e2ce1dad,2024/04/17,15:31,赵舒林,fix:代码优化
+80f15f423b,2024/04/17,15:30,赵舒林,fix:代码优化
+a4706657b3,2024/04/17,15:27,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+dbe6984610,2024/04/17,15:27,赵舒林,fix:代码优化
+ac3b5d56bc,2024/04/17,14:19,赵舒林,fix:文字大小缩放调整
+b83226ca34,2024/04/17,14:18,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+30d274d900,2024/04/17,14:17,赵舒林,fix:弹窗阴影增加，代码优化
+dad4172870,2024/04/17,14:16,赵舒林,fix:弹窗阴影增加，代码优化
+017ac1b0a1,2024/04/16,11:31,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+4e0444f40a,2024/04/16,11:31,赵舒林,fix:BUG_020331
+5b2353817a,2024/04/15,11:27,赵舒林,fix:代码优化、增加fragment无参方法
+60ee3f812e,2024/04/15,19:10,赵舒林,Merge remote-tracking branch 'origin/feat_browser_raw' into feat_browser_raw
+76b35c9fe4,2024/04/15,19:10,赵舒林,fix:共享多图只有一张的时候居中
+a2f7058db6,2024/04/15,13:35,赵舒林,Merge remote-tracking branch 'origin/feat_browser_raw' into feat_browser_raw
+b9af03beb0,2024/04/15,13:35,赵舒林,fix:row格式优化
+b06f8ea570,2024/04/15,11:27,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+9a099455e5,2024/04/15,11:27,赵舒林,fix:代码优化、增加fragment无参方法
+6acb9b4d97,2024/04/12,16:10,赵舒林,fix:修改iconfonts 匹配规则
+e745477df5,2024/04/11,17:25,赵舒林,fix:修复bug
+0ee32c09e4,2024/04/10,18:58,赵舒林,fix:代码优化
+e53b3d0128,2024/04/10,17:57,赵舒林,fix:修改checkbox
+e0da2e7871,2024/04/10,17:57,赵舒林,fix:修改checkbox
+60b6f4cdb2,2024/04/09,19:51,赵舒林,fix:live photos play btn fix
+4e0487b76c,2024/04/09,10:18,赵舒林,feat:优化媒体选择检测
+3ad3b4ca12,2024/04/08,11:06,赵舒林,feat:积分悬浮框优化
+0ebf7b7df4,2024/04/08,10:12,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+9b5314d88c,2024/04/08,10:11,赵舒林,feat:引导提示逻辑优化
+8986830f11,2024/04/03,17:32,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+21f15d412d,2024/04/03,17:31,赵舒林,feat:代码优化
+fbdf0e56c2,2024/04/03,16:26,赵舒林,feat:悬浮窗边界修改
+c61aac1aa1,2024/04/03,13:34,赵舒林,feat:悬浮窗边界修改
+a3e21944ae,2024/04/02,17:25,赵舒林,Merge branch 'develop_fix_navigation' into feat_fix_navigation
+fcb561fe5c,2024/04/02,13:59,赵舒林,feat:积分任务功能开发
+c71dff0337,2024/04/02,11:22,赵舒林,feat:积分弹窗文字适配
+0b46a2634f,2024/04/02,10:39,赵舒林,Merge remote-tracking branch 'origin/feat_edger_pea' into feat_edger_pea
+410228330a,2024/04/02,10:39,赵舒林,feat:积分任务功能开发
+a8da293ebc,2024/04/01,19:05,赵舒林,Merge branch 'dev' into develop_fix_navigation
+3837b6c9f7,2024/04/01,19:02,赵舒林,feat:代码优化
+8e4afd1c2c,2024/04/01,18:58,赵舒林,feat:修改弹窗导航栏适配
+e6616fa614,2024/04/01,18:01,赵舒林,Merge branch 'dev' into develop_fix_navigation
+257e083672,2024/04/01,11:34,赵舒林,feat:修改导航栏高度
+d98d138f7e,2024/04/01,10:38,赵舒林,Merge branch 'dev' into develop_fix_navigation
+7096e70bc2,2024/03/29,17:40,赵舒林,feat:指令增加回复
+ab4928a4a6,2024/03/29,14:45,赵舒林,feat:修改资源url
+420d451d98,2024/03/28,16:54,赵舒林,fix:BUG_019355
+700a4ab884,2024/03/28,14:37,赵舒林,feat:积分任务功能开发
+17d90dbeb2,2024/03/28,14:30,赵舒林,feat:扫一扫功能开发对接
+b1d148f246,2024/03/28,14:24,赵舒林,feat:扫一扫功能开发对接
+7315cdf7ec,2024/03/28,10:16,赵舒林,Merge remote-tracking branch 'origin/feat_scan_qr_code' into develop_scan_qr_code_android
+e25b24809b,2024/03/26,15:12,赵舒林,feat:提高日志级别
+6bf4b2c4f0,2024/03/26,10:58,赵舒林,feat:优化代码
+49cc4e87bc,2024/03/25,19:10,赵舒林,feat:修改导航栏适配
+dba8e3dcd1,2024/03/25,11:04,赵舒林,feat:修改导航栏高度
+acf3fe15c8,2024/03/25,11:02,赵舒林,Merge branch 'feat_fix_navigation' into develop_fix_navigation
+992f51df5d,2024/03/25,11:00,赵舒林,feat:弹窗底部修改
+c182bb390e,2024/03/22,18:53,赵舒林,feat:扫描动画速度修改
+f0b483eb74,2024/03/22,18:24,赵舒林,feat:弹窗导航栏适配
+369ff09867,2024/03/21,18:30,赵舒林,fix:修改引用
+8463ff7d02,2024/03/21,18:30,赵舒林,fix:修改引用
+39e667f605,2024/03/21,12:07,赵舒林,feat:引导动画增加事件
+7c96ba3aff,2024/03/21,12:00,赵舒林,feat:引导动画增加事件
+c886314026,2024/03/20,18:29,赵舒林,feat:任务面板打开事件
+5a6bf772d3,2024/03/20,18:23,赵舒林,feat:优化任务栏引导动画
+8cb50eea10,2024/03/20,17:27,赵舒林,feat:任务管理面板引导
+f4727f1c59,2024/03/20,17:22,赵舒林,feat:优化首页任务栏
+bee22309c4,2024/03/20,16:05,赵舒林,feat:增加滑动关闭任务指令
+18b2112b0f,2024/03/20,15:59,赵舒林,feat:优化首页任务栏
+cbc8a96b5c,2024/03/20,15:47,赵舒林,feat:优化首页任务栏
+8d816df1bd,2024/03/20,14:46,赵舒林,feat:绘制优化
+350d737b5e,2024/03/20,14:33,赵舒林,feat:开启抗锯齿
+2b481235c1,2024/03/20,14:25,赵舒林,feat:扫码功能开发
+e20c1a6370,2024/03/19,17:47,赵舒林,feat：原生界面适配全面屏
+7cb8e5ce5c,2024/03/19,16:30,赵舒林,feat：原生界面适配全面屏
+68b17493fd,2024/03/19,15:44,赵舒林,feat:修改安全区设置
+b2b734f391,2024/03/19,15:07,赵舒林,feat:修改导航栏高度
+5d6305b819,2024/03/19,10:16,赵舒林,feat:图片预览 缓存10个
+54dae0479e,2024/03/18,13:35,赵舒林,feat:图片预览 缓存10个
+8fbc25e59b,2024/03/18,11:15,赵舒林,Merge branch 'dev' into feat_media_file_prefetch
+b182ca0548,2024/03/18,11:14,赵舒林,Merge branch 'dev' into feat_media_file_prefetch
+9b17480a9c,2024/03/15,20:12,赵舒林,feat:更新最小化按钮距离计算方式
+305e931934,2024/03/15,17:49,赵舒林,feat:拦截异常情况
+dab5a298ba,2024/03/15,17:43,赵舒林,feat:引导动画调整
+8e8064d8a2,2024/03/15,17:22,赵舒林,fix:BUG_018949
+5aa6023fd1,2024/03/15,15:35,赵舒林,fix:bug修复
+4609c33305,2024/03/15,14:50,赵舒林,feat:临界情况防护
+6f8eed7fe5,2024/03/15,14:29,赵舒林,Merge remote-tracking branch 'origin/feat_freshman_guide' into feat_freshman_guide
+53d2d0eca4,2024/03/15,14:29,赵舒林,feat:临界情况防护
+aceb14cc5b,2024/03/15,10:52,赵舒林,fix:更新adapter版本
+3a67b6f453,2024/03/14,15:14,赵舒林,fix bug
+1481f1d75d,2024/03/14,14:31,赵舒林,feat:update import
+e6fe8866c0,2024/03/14,11:52,赵舒林,Merge branch 'feat_freshman_guide' into develop_android_freshman_guide
+06499ad1ae,2024/03/14,11:49,赵舒林,feat:恢复代码
+f4468e8fa9,2024/03/14,11:46,赵舒林,feat:恢复代码
+d2b6cc75f6,2024/03/14,11:46,赵舒林,feat:任务管理面板引导
+5679e315b8,2024/03/14,11:44,赵舒林,feat:任务管理面板引导
+79ae37c210,2024/03/14,11:29,赵舒林,feat:任务栏引导动画开发
+f30e9d58b5,2024/03/13,18:05,赵舒林,fix:BUG_018949
+f4166bf7bf,2024/03/13,12:21,赵舒林,feat：判断缓存视频路径
+776ea24c67,2024/03/13,12:17,赵舒林,feat:任务管理面板引导
+aabc0a6735,2024/03/12,11:33,赵舒林,Merge branch 'feat_freshman_guide' into develop_android_freshman_guide
+287c92b842,2024/03/12,11:31,赵舒林,feat:任务管理面板引导
+0e26701a35,2024/03/11,10:23,赵舒林,feat:微信返回数据修改
+64fd54d74e,2024/03/08,18:02,赵舒林,feat:微信登录修正指令
+d60de914f5,2024/03/08,17:46,赵舒林,feat:微信登录修正指令
+de13065309,2024/03/08,15:49,赵舒林,feat:增加任务栏关闭、打开指令
+99b4fc43db,2024/03/08,15:27,赵舒林,feat:增加任务栏关闭、打开指令
+f4420bf30c,2024/03/08,14:45,赵舒林,Merge branch 'dev' into feat_freshman_guide
+01a032074e,2024/03/08,14:39,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+3665642f07,2024/03/08,14:39,赵舒林,feat:处理临界情况
+fffaa1f14e,2024/03/08,11:49,赵舒林,feat:对接接口
+5e2981497f,2024/03/08,11:36,赵舒林,Merge branch 'dev' into feat_wechat_login
+57659fc286,2024/03/08,11:34,赵舒林,feat:对接接口
+39373a312a,2024/03/08,10:55,赵舒林,feat:修改定位规则
+bf2d89788d,2024/03/08,10:04,赵舒林,Merge branch 'dev' into feat_bugfix
+f34dcdf722,2024/03/07,19:40,赵舒林,Merge remote-tracking branch 'origin/dev' into dev
+727d8271b8,2024/03/07,19:40,赵舒林,fix:对媒体选择限制频率
+4bf6675556,2024/03/06,18:42,赵舒林,feat:相册取消后重置位置
+b626fa2194,2024/03/06,18:40,赵舒林,feat:微信登录功能开发
+ec9237d903,2024/03/06,18:19,赵舒林,feat:微信登录功能开发
+77e993e8bb,2024/03/06,18:18,赵舒林,feat:微信登录功能开发
+6e78acc2d0,2024/03/06,11:44,赵舒林,Merge remote-tracking branch 'origin/feat_picture_select' into feat_picture_select
+5ebabae048,2024/03/06,11:43,赵舒林,feat:返回message 增加cancel
+bfab2756bd,2024/03/05,16:34,赵舒林,feat:增加指令
+c8206c9c9b,2024/03/04,19:05,赵舒林,feat:增加eap加载完成指令
+c29f143ea0,2024/03/04,18:10,赵舒林,fix：修复eap事件发送不准的情况。
+f55928a68e,2024/03/01,16:09,赵舒林,feat：合并代码
+010833cdea,2024/03/01,16:05,赵舒林,Merge remote-tracking branch 'origin/feat_eap_min_guide' into feat_eap_min_guide
+97851df9fd,2024/03/01,15:41,赵舒林,feat:代码合并
+3a51a5fca0,2024/03/01,15:38,赵舒林,Merge branch 'dev' into develop_android_eap_min_guide
+c63ca1a51c,2024/03/01,14:55,赵舒林,fix: 适配弹窗 navigationBar 颜色
+674545c52f,2024/03/01,13:43,赵舒林,feat：国际化、深浅色适配
+5253dc1899,2024/03/01,11:03,赵舒林,fix: 修改bug
+0f5891eaee,2024/02/29,18:12,赵舒林,feat:对视频 URL 增加实时header
+948e3b1ad8,2024/02/29,16:41,赵舒林,fix：优化最小化eap过程
+a769f0bddc,2024/02/29,15:55,赵舒林,fix:优化悬浮窗显示逻辑
+c3d0353eb2,2024/02/28,19:51,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+103030d2f4,2024/02/28,19:51,赵舒林,fix:修复悬浮球不能隐藏的问题
+dcb56ab0ed,2024/02/28,19:13,赵舒林,feat:去除过滤
+8d1322834f,2024/02/28,16:30,赵舒林,Merge remote-tracking branch 'origin/feat_bugfix' into feat_bugfix
+45509011d4,2024/02/28,16:29,赵舒林,fix:修复透明模式不能显示进度条
+f2f7b58744,2024/02/28,16:14,赵舒林,feat：X 按钮增加点击效果
+416c78f8a8,2024/02/28,15:36,赵舒林,fix:修复快速切换eap 不能及时获取eap状态的问题
+c7b8dea8fa,2024/02/28,14:46,赵舒林,fix:修复删除媒体会左右滑动的问题
+5448257847,2024/02/28,11:11,赵舒林,feat：优化引导动画代码
+379677652f,2024/02/27,19:32,赵舒林,feat：tips 代码优化
+8ab80e9ddd,2024/02/27,19:30,赵舒林,Merge branch 'feat_eap_min_guide' into develop_android_eap_min_guide
+5181278689,2024/02/27,17:44,赵舒林,Merge branch 'feat_eap_min_guide' into develop_android_eap_min_guide
+04e0e3352c,2024/02/27,17:33,赵舒林,fix:修复bug
+54ca6d1471,2024/02/27,17:28,赵舒林,feat：优化代码
+be51562d10,2024/02/27,16:52,赵舒林,feat：增加eap hint 提示
+414869c6d4,2024/02/27,13:41,赵舒林,Merge branch 'feat_eap_min_guide' into develop_android_eap_min_guide
+1383a59bb0,2024/02/27,11:34,赵舒林,fix:修复快速滑动不发送事件
+8d35509f8d,2024/02/27,10:48,赵舒林,feat：最小化指令处理异常
+fbdadaabe8,2024/02/27,10:17,赵舒林,Merge branch 'feat_eap_min_guide' into develop_android_eap_min_guide
+7e178e3ad1,2024/02/26,19:21,赵舒林,feat：增加最小化指令
+0755210611,2024/02/23,15:03,赵舒林,feat：增加最小化指令
+82e90c7ed7,2024/02/23,11:09,赵舒林,fix:修改音频播放 toolbar 验证了playerID 的问题
+b254999a56,2024/02/23,10:23,赵舒林,Merge branch 'feat_eap_min_guide' into develop_android_eap_min_guide
+7f936289a9,2024/02/22,11:48,赵舒林,Merge branch 'feat_eap_min_guide' into develop_android_eap_min_guide
+ac33128152,2024/02/22,11:13,赵舒林,feat: 注解可以查找所有的接口
+84d0d3f381,2024/02/22,10:25,赵舒林,Merge branch 'develop_android_min_tap' into develop_android_eap_min_guide
+cd5a078aca,2024/02/22,10:24,赵舒林,feat:最小化动画
+c7e4e2021f,2024/02/21,16:36,赵舒林,fix:允许后台创建悬浮窗对象
+cc75c830f0,2024/02/20,18:50,赵舒林,fix:在只有一个eap的情况下，不执行关闭eap
+c262801704,2024/02/20,18:28,赵舒林,fix:忽略包名为空的情况
+561343bcf9,2024/02/19,16:28,赵舒林,feat：增加打开外部界面的功能
+07e9e33ad7,2024/02/18,15:02,赵舒林,feat：修复删除后总数没有变的问题
+8ad7e06c16,2024/02/18,11:14,赵舒林,feat：投屏允许隐藏状态栏
+224833eba3,2024/01/30,14:10,赵舒林,feat：优化任务栏最后一个关闭动画
+e678c6bfe0,2024/01/30,11:23,赵舒林,feat：悬浮窗判断是否是当前eap
+f54632b711,2024/01/30,11:05,赵舒林,feat：悬浮窗判断是否是当前eap
+f5cf4b93fe,2024/01/29,18:46,赵舒林,feat：增加 eap 最小化指令
+4a259242e2,2024/01/27,00:39,赵舒林,fix：优化任务栏动画
+4ad92dbb49,2024/01/26,18:06,赵舒林,feat：优化悬浮窗代码
+e2018dc99b,2024/01/26,17:03,赵舒林,feat：代码优化
+cdf0960f88,2024/01/26,16:40,赵舒林,feat：修改悬浮窗位置、颜色
+5c113ab937,2024/01/25,22:21,赵舒林,feat：优化悬浮球位置
+729bc7e113,2024/01/25,20:07,赵舒林,feat：优化代码
+0c1d741d24,2024/01/25,20:05,赵舒林,feat：优化代码
+58d36d71f4,2024/01/25,14:44,赵舒林,feat：代码优化
+4402212595,2024/01/17,17:30,赵舒林,feat：增加activity打开动画
+a159e22f37,2024/01/17,17:04,赵舒林,feat：增加destroy指令
+5fce740c26,2024/01/17,16:02,赵舒林,feat：增加index
+9cfbb9234a,2024/01/17,15:32,赵舒林,feat：音频播放器增加指令
+6db1da9e8d,2024/01/10,11:16,赵舒林,feat：音频播放增加toolbar
+0872f1478f,2024/01/09,13:42,赵舒林,feat：音频播放增加toolbar
+e09a345aa0,2024/01/08,16:19,赵舒林,feat：音频播放增加toolbar
+c4a81c8bff,2024/01/25,14:08,赵舒林,feat：代码优化
+73a7ad2638,2024/01/24,20:06,赵舒林,feat：优化前后台动画
+1010cfaaf5,2024/01/24,17:05,赵舒林,feat：修改bug
+556ce57ca5,2024/01/24,14:27,赵舒林,feat：修改动画实现
+c91e8d7bef,2024/01/24,11:29,赵舒林,Merge branch 'dev' into feat_bugfix
+8e950f1864,2024/01/24,11:28,赵舒林,feat：修改运行栏bug
+8312efb4be,2024/01/23,20:21,赵舒林,Merge branch 'dev' into feat_float_btn
+1789f8953f,2024/01/23,20:14,赵舒林,feat：增加activity打开动画
+930fc02b01,2024/01/23,19:54,赵舒林,feat：优化代码
+458c4e391a,2024/01/23,19:06,赵舒林,feat：优化代码
+905b1c6b8f,2024/01/23,16:34,赵舒林,Merge branch 'dev' into feat_float_btn
+e6322bc99a,2024/01/23,16:30,赵舒林,feat：增加贴边后的坐标
+dac9ba92a6,2024/01/23,15:35,赵舒林,feat：优化代码
+0217270638,2024/01/23,10:49,赵舒林,feat：悬浮窗增加默认值
+1984cb9509,2024/01/23,10:07,赵舒林,feat：优化代码
+4e3bde0d0f,2024/01/22,19:33,赵舒林,feat：增加坐标
+95b215d0cc,2024/01/22,19:26,赵舒林,feat：增加坐标
+6d9ad7bbf9,2024/01/22,18:45,赵舒林,Merge remote-tracking branch 'origin/feat_float_btn' into feat_float_btn
+f5f632ced7,2024/01/22,18:45,赵舒林,feat：增加坐标
+319eeb027b,2024/01/22,17:23,赵舒林,feat：eap被kill 隐藏悬浮窗
+58d9518cf8,2024/01/22,16:13,赵舒林,feat：修复多个浮窗可能出现的错误
+707fc7ad3a,2024/01/22,15:38,赵舒林,feat：修改动画时长
+7a86cc662d,2024/01/19,19:19,赵舒林,feat：媒体预览增加动画
+71a4c7f085,2024/01/19,16:58,赵舒林,feat：增加動動畫
+0f6ad1ea7a,2024/01/19,16:00,赵舒林,feat：增加activity打开动画
+23f4e63c4a,2024/01/19,15:57,赵舒林,feat：增加activity打开动画
+d9c460a8ef,2024/01/19,15:07,赵舒林,feat：增加浮窗动画
+5367c41d10,2024/01/19,13:41,赵舒林,feat：关联悬浮窗与eap生命周期
+5463d36797,2024/01/19,11:11,赵舒林,feat：悬浮窗update方法更新
+f27fe4a356,2024/01/18,19:20,赵舒林,feat：bug fix
+7250b7f234,2024/01/18,18:37,赵舒林,feat：bug fix
+a080316516,2024/01/18,17:45,赵舒林,feat：update float view
+2bb866daa5,2024/01/18,17:44,赵舒林,feat：bug fix
+efcba0bf2f,2024/01/18,17:40,赵舒林,feat：bug fix
+119b4dcf55,2024/01/18,17:18,赵舒林,feat：bug fix
+b2106bc8e9,2024/01/18,16:21,赵舒林,feat：增加activity打开动画
+c69b4e6d49,2024/01/18,15:36,赵舒林,feat：对接float btn 接口
+3892004680,2024/01/18,14:37,赵舒林,feat：bug fix
+59f6398a9c,2024/01/18,14:14,赵舒林,feat：增加悬浮view功能
+d8090a8a64,2024/01/17,13:41,赵舒林,Merge branch 'dev' into feat_float_btn
+e37607ae61,2024/01/17,13:40,赵舒林,feat：增加activity打开动画
+b1d4538f9b,2024/01/15,18:38,赵舒林,feat：预览文件下载增加缓存判断
+d106e4ff93,2024/01/15,18:20,赵舒林,feat：预览文件下载增加缓存判断
+fc496c3d49,2024/01/15,18:12,赵舒林,feat：预览文件下载增加缓存判断
+d9d18ed823,2024/01/15,10:58,赵舒林,feat：预览文件下载增加缓存判断
+e95046425c,2024/01/12,19:27,赵舒林,feat：文件下载开发
+577ca278f9,2024/01/12,15:13,赵舒林,feat：文件下载开发
+bda0f0d186,2024/01/12,13:41,赵舒林,feat：输入框增加textbtn
+8bdebefd68,2024/01/12,11:30,赵舒林,feat：输入框增加textbtn
+68db8f91a4,2024/01/11,18:26,赵舒林,feat：修复偶尔产生的任务栏无后台任务
+fc21ef4661,2024/01/11,14:41,赵舒林,feat：忘记密码弹窗修改
+2ada5a5f62,2024/01/11,14:38,赵舒林,feat忘记密码弹窗修改
+5c31268a02,2024/01/09,19:12,赵舒林,feat：修复偶尔产生的任务栏无后台任务
+954d9f7130,2024/01/09,18:54,赵舒林,feat：bug fix
+bd9384b8db,2024/01/09,17:14,赵舒林,feat：bug fix
+5a8ce2f811,2024/01/04,19:07,赵舒林,feat：更新 sourceframe
+2ae1f66048,2024/01/04,15:27,赵舒林,fix:bug 修复
+5357510fdc,2024/01/04,15:26,赵舒林,Merge branch 'feat_cast_volume' into feat-modularization
+8aa4a6deda,2024/01/04,15:10,赵舒林,feat：bug 修复
+000f63fafa,2024/01/04,12:01,赵舒林,feat 初始化dialog
+6bde7d8779,2024/01/04,11:29,赵舒林,fix:bug 修复
+3ae6f3c0e8,2024/01/03,17:55,赵舒林,fix：BUG_016471
+05c280a3b1,2024/01/03,16:45,赵舒林,feat：更新 sourceframe
+c93e5f2142,2024/01/03,15:30,赵舒林,fix：BUG_016441
+07148c4733,2024/01/03,14:59,赵舒林,feat：app 增加音量变化、获取功能
+ad21df840e,2024/01/03,10:37,赵舒林,fix:BUG_016494
+e363978c1b,2024/01/03,10:01,赵舒林,Merge branch 'feat_sourceframe' into feat-modularization
+662f1b1608,2024/01/02,19:07,赵舒林,feat：更新 sourceframe
+539bf31011,2024/01/02,19:05,赵舒林,feat：更新 sourceframe
+360da800de,2024/01/02,16:04,赵舒林,feat：update aar
+e6cdb813e4,2024/01/02,14:54,赵舒林,feat：更新 sourceframe
+42b3b673a2,2024/01/02,14:28,赵舒林,Merge remote-tracking branch 'origin/feat-modularization' into feat-modularization
+b81a1ad460,2024/01/02,14:28,赵舒林,feat：媒体浏览功能开发
+6c5b75c081,2024/01/02,14:26,赵舒林,fix:bug修复 sourceframe 功能开发
+3403b1dc84,2024/01/02,13:51,赵舒林,Merge branch 'feat-modularization' into feat_sourceframe
